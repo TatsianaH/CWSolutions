@@ -75,4 +75,23 @@ function findDifference(a, b) {
   return Math.abs(aA - bB);
 }
 ```
+* Sum of Odd Cubed Numbers
+https://www.codewars.com/kata/sum-of-odd-cubed-numbers/train/javascript
+```javascript
+function cubeOdd(arr) {
+const arr2 = [];
+let res = undefined;
+  for(let i = 0; i < arr.length; i++){
+    if (typeof arr[i] !== 'number') {
+      return res; 
+        break;
+    }    
+      if(typeof arr[i] === 'number' && Math.abs(arr[i]) % 2 === 1){
+        arr2.push(arr[i]);
+      }
+  }
+      res = arr2.reduce((acc, curr) => acc + Math.pow(curr,3), 0);
+  return res;
+}
+```
 
