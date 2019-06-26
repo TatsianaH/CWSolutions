@@ -151,3 +151,10 @@ function getRectangleString(width, height) {
   return (height > 1) ? (tb + centre.repeat(height - 2) + tb) : (tb.repeat(height));
 }
 ```
+*Random case
+```javascript
+function randomCase(x) {
+  const arr = x.split('').map(el => Math.random() < 0.5 ? el.toUpperCase() : el.toLowerCase());
+  return arr.join('');
+}
+```
