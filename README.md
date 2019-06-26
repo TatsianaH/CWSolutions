@@ -170,3 +170,13 @@ function accum(s) {
   return newStr.slice(0, newStr.length - 1);  
 }
 ```
+*Are the numbers in order?
+https://www.codewars.com/kata/are-the-numbers-in-order/train/javascript
+```javascript
+function inAscOrder(arr) {
+    for(let i = 0; i < arr.length; i++){
+      if(arr[i] > arr[i + 1]) return false;
+    }
+    return true;
+}
+```
