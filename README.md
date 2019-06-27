@@ -258,6 +258,7 @@ if(typeof num !== 'number' || num < 0){
 ```
 *Find the calculation type
 https://www.codewars.com/kata/find-the-calculation-type/train/javascript
+```javascript
 function calcType(a, b, res) {
   if(a + b === res){
     return 'addition';
@@ -319,3 +320,17 @@ function iqTest(numbers){
   return res1.length < res2.length ? (arr.indexOf(res1[0]) + 1) : (arr.indexOf(res2[0]) + 1);
 }
 ```  
+
+*Stop gninnipS My sdroW!
+https://www.codewars.com/kata/5264d2b162488dc400000001/train/javascript
+```javascript
+unction spinWords(a){
+  const arr = a.split(' ');
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i].length >= 5){
+      arr[i] = arr[i].split('').reverse().join('');
+    }
+  }
+  return arr.join(' ');
+}
+```
