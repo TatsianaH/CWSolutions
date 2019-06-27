@@ -258,7 +258,6 @@ if(typeof num !== 'number' || num < 0){
 ```
 *Find the calculation type
 https://www.codewars.com/kata/find-the-calculation-type/train/javascript
-```javascript
 function calcType(a, b, res) {
   if(a + b === res){
     return 'addition';
@@ -270,4 +269,12 @@ function calcType(a, b, res) {
       return 'division';
     } 
 }
+```
+*Simple beads count
+https://www.codewars.com/kata/simple-beads-count/train/javascript
+```javascript
+function countRedBeads(n) {
+if(n < 2) return 0;
+  return (n - 1) * 2;
+ }
 ```
