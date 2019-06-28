@@ -371,3 +371,10 @@ function squareDigits(num){
   return +(num.toString().split('').map(el => el ** 2).join(''));
 }
 ```
+*Hex to Decimal
+https://www.codewars.com/kata/hex-to-decimal/train/javascript
+```javascript
+function hexToDec(hexString){
+  return Number.parseInt(hexString, 16);
+}
+```
