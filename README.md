@@ -378,3 +378,10 @@ function hexToDec(hexString){
   return Number.parseInt(hexString, 16);
 }
 ```
+*Sort the odd
+https://www.codewars.com/kata/sort-the-odd/train/javascript
+```javascript
+function sortArray(arr) {
+  const arrOdd = arr.filter(el => el % 2).sort((a,b) => a - b);
+  return arr.map(el => el % 2 ? arrOdd.shift() : el);
+}```
