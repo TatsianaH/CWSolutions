@@ -456,4 +456,5 @@ function solve(arr){
   return arr.map(el => el.toLowerCase().split('').filter((e, i) => i === str.indexOf(e)).length);
 }
 ```  
+# * new solution2
 # * newsolution
