@@ -1,4 +1,5 @@
 *1*
+Task: Query all columns for all American cities in CITY with populations larger than 100000. The CountryCode for America is USA.
 https://www.hackerrank.com/challenges/revising-the-select-query/problem
 ```sql
 select *
@@ -19,7 +20,8 @@ from station
 order by length(city) DESC, city limit 1;
 ```
 *3*
-Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
+https://www.hackerrank.com/challenges/weather-observation-station-6/problem
+Task: Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
 ```sql
 select distinct city
 from station 
