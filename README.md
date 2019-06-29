@@ -213,7 +213,7 @@ function anagrams(word, words) {
 return arr;
 }
 ```
-*Shortest Code : Special factor
+*Shortest Code : Special factor*
 https://www.codewars.com/kata/shortest-code-special-factor/train/javascript
 ```javascript
 var sc = n=>{
@@ -222,7 +222,7 @@ var sc = n=>{
     .filter(v=>n.toString(2).includes(v.toString(2)));
 }
 ```
-*Arrays Similar
+*Arrays Similar*
 https://www.codewars.com/kata/arrays-similar/train/javascript
 ```javascript
 function arraysSimilar(arr1, arr2) {    
@@ -231,7 +231,7 @@ function arraysSimilar(arr1, arr2) {
   return (arr1.length > arr2.length) ? arr1.every((el,i) => el === arr2[i]) : arr2.every((el, i) => el === arr1[i]);  
 }
 ```
-*A Gift Well Spent
+*A Gift Well Spent*
 https://www.codewars.com/kata/a-gift-well-spent/train/javascript
 ```javascript
 var buy = function(x, arr){
@@ -245,7 +245,7 @@ var buy = function(x, arr){
   return null;
 };
 ```
-*Numerical Palindrome #1
+*Numerical Palindrome #1*
 https://www.codewars.com/kata/numerical-palindrome-number-1/train/javascript
 ```javascript
 function palindrome(num) { 
@@ -499,8 +499,6 @@ function proofread(str) {
   return arr.join('. ');
 }
 ```
-
-branch katas
 
 *String Reordering*
 https://www.codewars.com/kata/string-reordering/train/javascript
