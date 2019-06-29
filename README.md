@@ -510,4 +510,10 @@ function sentence(List) {
   return arr.map(el => Object.values(el)[0]).join(' ');
 }
 ```
-
+*Disemvowel Trolls*
+https://www.codewars.com/kata/disemvowel-trolls/train/javascript
+```javascript 
+function disemvowel(str) {
+  return str.replace(/[aeiuo]/gi, '');
+}
+```
