@@ -457,4 +457,4 @@ function solve(arr){
 }
 ```  
 # *****************************
-
+*new solution
