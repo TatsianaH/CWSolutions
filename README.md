@@ -456,3 +456,48 @@ function solve(arr){
   return arr.map(el => el.toLowerCase().split('').filter((e, i) => i === str.indexOf(e)).length);
 }
 ```  
+*Sum without highest and lowest number*
+https://www.codewars.com/kata/sum-without-highest-and-lowest-number/train/javascript
+```javascript
+function sumArray(arr) {
+  if(!arr || !arr.length || arr.length <= 1){
+    return 0;
+  }
+  let max = arr[0];
+  let min = arr[0];
+  let sum = 0;
+    for(let i = 0; i < arr.length; i++){
+      sum += arr[i];
+      if(max < arr[i]) {
+        max = arr[i];
+     }
+      if(min > arr[i]) {
+        min = arr[i];
+      }
+    }
+  return sum - max - min;
+}
+```
+* 2 version*
+```javascript
+function sumArray(arr) {
+  if(!arr || !arr.length || arr.length <= 1){
+    return 0;
+  }
+  return arr.sort((a, b) => a - b).slice(1, arr.length -1).reduce((a, b) => a + b, 0);
+}
+```
+*Proof Read*
+https://www.codewars.com/kata/583710f6b468c07ba1000017/train/javascript
+```javascript
+function proofread(str) {
+  let str2 = str.toLowerCase().replace(/ie/g, 'ei');
+  const arr = str2.split('. ');
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] = arr[i][0].toUpperCase() + arr[i].slice(1, arr[i].length);
+  }
+  return arr.join('. ');
+}
+```
+
+
