@@ -1,6 +1,6 @@
 *1*
-Task: Query all columns for all American cities in CITY with populations larger than 100000. The CountryCode for America is USA.
 https://www.hackerrank.com/challenges/revising-the-select-query/problem
+Task: Query all columns for all American cities in CITY with populations larger than 100000. The CountryCode for America is USA.
 ```sql
 select *
 from city
