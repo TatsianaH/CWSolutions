@@ -448,3 +448,11 @@ function longest(s1, s2) {
   // your code
 }
 ```
+*Alphabet symmetry
+https://www.codewars.com/kata/alphabet-symmetry/train/javascript
+```javascript
+function solve(arr){  
+  let str = 'abcdefghijklmnopqrstuvwxyz';
+  return arr.map(el => el.toLowerCase().split('').filter((e, i) => i === str.indexOf(e)).length);
+}
+```  
