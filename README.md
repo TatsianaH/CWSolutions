@@ -633,4 +633,3 @@ function validateUsr(username) {
   return res;
 }
 ```
-CHECK
