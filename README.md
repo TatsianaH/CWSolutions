@@ -614,4 +614,15 @@ function validateUsr(username) {
   }
   return true;
 ```
-   
+####2 version    
+```javascript
+function validateUsr(username) {
+  if(username.length < 4 || username.length > 16){
+    return false;
+    } 
+  if(username.length >= 4 && username.length <= 16){
+  let regexp = /[A-Z\s]/;
+  let res = regexp.test(username);  
+  return !res;
+}
+```
