@@ -614,7 +614,7 @@ function validateUsr(username) {
   }
   return true;
 ```
-####2 version    
+#####2 version    
 ```javascript
 function validateUsr(username) {
   if(username.length < 4 || username.length > 16){
@@ -624,5 +624,12 @@ function validateUsr(username) {
   let regexp = /[A-Z\s]/;
   let res = regexp.test(username);  
   return !res;
+}
+```
+#####3 version
+```javascript
+function validateUsr(username) {
+  let res =  /^[a-z0-9_]{4,16}$/.test(username); 
+  return res;
 }
 ```
