@@ -1,7 +1,7 @@
-# Hello!
-## Nice to meet you here!
+# Hello! 
+## Nice to meet you here! 
 
-* https://www.codewars.com/kata/sort-and-star/train/javascript
+*https://www.codewars.com/kata/sort-and-star/train/javascript*
 
 ```javascript
 function twoSort(s) {
@@ -9,13 +9,13 @@ function twoSort(s) {
 return s[0].split('').join('***') ;
 }
 ```
-* https://www.codewars.com/kata/adults-only-sql-for-beginners-number-1/train/sql
+*https://www.codewars.com/kata/adults-only-sql-for-beginners-number-1/train/sql*
 ```SQL
 select*
 from users
 where age >= 18
 ```
-* https://www.codewars.com/kata/difference-of-squares/train/javascript
+*https://www.codewars.com/kata/difference-of-squares/train/javascript*
 ```javascript
 function differenceOfSquares(n){
   let resN = 0;
@@ -28,20 +28,20 @@ function differenceOfSquares(n){
   return resOneN - resN;
 }
 ```
-* https://www.codewars.com/kata/century-from-year/train/javascript
+*https://www.codewars.com/kata/century-from-year/train/javascript*
 ```javascript
 function century(year) { 
   return Math.ceil(year/100);
 }
 ```
-* https://www.codewars.com/kata/discover-the-original-price/train/javascript
+*https://www.codewars.com/kata/discover-the-original-price/train/javascript*
 ```javascript
 function discoverOriginalPrice(discountedPrice, salePercentage){
   let res = +(discountedPrice * 100 / (100 - salePercentage)).toFixed(2);
   return res;
 }
 ```
-* Clocky Mc Clock-Face https://www.codewars.com/kata/clocky-mc-clock-face/train/javascript
+*Clocky Mc Clock-Face https://www.codewars.com/kata/clocky-mc-clock-face/train/javascript*
 ```javascript
 var whatTimeIsIt = function(angle) {
     let totalMinutes = angle * 2;
@@ -53,7 +53,7 @@ var whatTimeIsIt = function(angle) {
   return `${hours}:${minutes}`;    
 };
 ```
-* Find the divisors!
+*Find the divisors!*
 https://www.codewars.com/kata/find-the-divisors/train/javascript
 ```javascript
 function divisors(integer) {
@@ -66,7 +66,7 @@ const list = [];
   return (list[0] !== undefined) ? list : integer + ' is prime';;
 };
 ```
-* Difference of Volumes of Cuboids
+*Difference of Volumes of Cuboids*
 https://www.codewars.com/kata/difference-of-volumes-of-cuboids/train/javascript
 ```javascript
 function findDifference(a, b) {
@@ -75,7 +75,7 @@ function findDifference(a, b) {
   return Math.abs(aA - bB);
 }
 ```
-* Number of People in the Bus
+*Number of People in the Bus*
 https://www.codewars.com/kata/number-of-people-in-the-bus/train/javascript
 ```javascript
 var number = function(busStops) {
@@ -88,7 +88,7 @@ var number = function(busStops) {
   return getIn - getOff;
 };
 ```
-* Two Sum
+*Two Sum*
 https://www.codewars.com/kata/two-sum/train/javascript
 ```javascript
 function twoSum(numbers, target) {
@@ -105,7 +105,7 @@ function twoSum(numbers, target) {
     return arr;
 }
 ```
-* String average
+*String average*
 https://www.codewars.com/kata/string-average/train/javascript
 ```javascript
 function averageString(str) {
@@ -119,7 +119,7 @@ function averageString(str) {
   return (str.length >= 1) ? res : 'n/a'; 
 }
 ```
-*Sum of Odd Cubed Numbers
+*Sum of Odd Cubed Numbers*
 https://www.codewars.com/kata/sum-of-odd-cubed-numbers/train/javascript
 ```javascript
 function cubeOdd(arr) {
@@ -134,14 +134,14 @@ function cubeOdd(arr) {
   return res;      
 }
 ```
-* Vowel one
+*Vowel one*
 https://www.codewars.com/kata/vowel-one/train/javascript
 ```javascript
 function vowelOne(s){  
   return s.replace(/[0-9]/gi, '0').replace(/[aeuio]/gi, '1').replace(/\D/gi, '0');
  } 
 ```
-*Print a Rectangle Using Asterisks
+*Print a Rectangle Using Asterisks*
 https://www.codewars.com/kata/print-a-rectangle-using-asterisks/train/javascript
 ```javascript
 function getRectangleString(width, height) {
@@ -151,14 +151,14 @@ function getRectangleString(width, height) {
   return (height > 1) ? (tb + centre.repeat(height - 2) + tb) : (tb.repeat(height));
 }
 ```
-*Random case
+*Random case*
 ```javascript
 function randomCase(x) {
   const arr = x.split('').map(el => Math.random() < 0.5 ? el.toUpperCase() : el.toLowerCase());
   return arr.join('');
 }
 ```
-*Mumbling
+*Mumbling*
 https://www.codewars.com/kata/mumbling/train/javascript
 ```javascript
 function accum(s) {
@@ -170,7 +170,7 @@ function accum(s) {
   return newStr.slice(0, newStr.length - 1);  
 }
 ```
-*Are the numbers in order?
+*Are the numbers in order?*
 https://www.codewars.com/kata/are-the-numbers-in-order/train/javascript
 ```javascript
 function inAscOrder(arr) {
@@ -180,7 +180,7 @@ function inAscOrder(arr) {
     return true;
 }
 ```
-* Array Array Array
+*Array Array Array*
 https://www.codewars.com/kata/57eb936de1051801d500008a/solutions/javascript
 ```javascript
 function explode(x){
@@ -189,7 +189,7 @@ function explode(x){
 }
 ```
 
-*Maximum Triplet Sum (Array Series #7)
+*Maximum Triplet Sum (Array Series #7)*
 https://www.codewars.com/kata/maximum-triplet-sum-array-series-number-7/train/javascript
 ```javascript
 function maxTriSum(numbers){
@@ -198,7 +198,7 @@ function maxTriSum(numbers){
   return res;
 }
 ```
-*Where my anagrams at?
+*Where my anagrams at?*
 https://www.codewars.com/kata/where-my-anagrams-at/train/javascript
 ```javascript
 function anagrams(word, words) {
@@ -256,7 +256,7 @@ if(typeof num !== 'number' || num < 0){
   return arr === num;
 } 
 ```
-*Find the calculation type
+*Find the calculation type*
 https://www.codewars.com/kata/find-the-calculation-type/train/javascript
 ```javascript
 function calcType(a, b, res) {
@@ -271,7 +271,7 @@ function calcType(a, b, res) {
     } 
 }
 ```
-*Simple beads count
+*Simple beads count*
 https://www.codewars.com/kata/simple-beads-count/train/javascript
 ```javascript
 function countRedBeads(n) {
@@ -279,7 +279,7 @@ if(n < 2) return 0;
   return (n - 1) * 2;
  }
 ```
-*Reverse a Number
+*Reverse a Number*
 https://www.codewars.com/kata/reverse-a-number/train/javascript
 ```javascript
 function reverseNumber(n) {
@@ -293,7 +293,7 @@ function reverseNumber(n) {
 }
 ```
 
-*Numerical Palindrome #1
+*Numerical Palindrome #1*
 https://www.codewars.com/kata/numerical-palindrome-number-1/train/javascript
 ```javascript
 function palindrome(num) {   
@@ -310,7 +310,7 @@ function palindrome(num) {
   return true;
 }
 ```
-*IQ Test
+*IQ Test*
 https://www.codewars.com/kata/552c028c030765286c00007d/train/javascript
 ```javascript
 function iqTest(numbers){
@@ -321,7 +321,7 @@ function iqTest(numbers){
 }
 ```  
 
-*Stop gninnipS My sdroW!
+*Stop gninnipS My sdroW!*
 https://www.codewars.com/kata/5264d2b162488dc400000001/train/javascript
 ```javascript
 unction spinWords(a){
@@ -335,7 +335,7 @@ unction spinWords(a){
 }
 ```
 
-*Get list sum recursively
+*Get list sum recursively*
 https://www.codewars.com/kata/get-list-sum-recursively/train/javascript
 ```javascript
 function sumR(x) {
@@ -345,7 +345,7 @@ function sumR(x) {
     return  x.shift() + sumR(x);
 }
 ```
-*Beginner Series #3 Sum of Numbers
+*Beginner Series #3 Sum of Numbers*
 https://www.codewars.com/kata/55f2b110f61eb01779000053/train/javascript
 ```javascript
 function GetSum( a,b ){
@@ -364,21 +364,21 @@ function GetSum( a,b ){
 }
 ```
 
-*Square Every Digit
+*Square Every Digit*
 https://www.codewars.com/kata/546e2562b03326a88e000020/train/javascript
 ```javascript
 function squareDigits(num){
   return +(num.toString().split('').map(el => el ** 2).join(''));
 }
 ```
-*Hex to Decimal
+*Hex to Decimal*
 https://www.codewars.com/kata/hex-to-decimal/train/javascript
 ```javascript
 function hexToDec(hexString){
   return Number.parseInt(hexString, 16);
 }
 ```
-*Sort the odd
+*Sort the odd*
 https://www.codewars.com/kata/sort-the-odd/train/javascript
 ```javascript
 function sortArray(arr) {
@@ -386,7 +386,7 @@ function sortArray(arr) {
   return arr.map(el => el % 2 ? arrOdd.shift() : el);
 }
 ```
-*Create Four Letter Birding Codes from Bird Names
+*Create Four Letter Birding Codes from Bird Names*
 https://www.codewars.com/kata/create-four-letter-birding-codes-from-bird-names/train/javascript
 ```javascript
 function birdCode(arr) {
@@ -417,7 +417,7 @@ console.log(arr)
 }
 ```
 
-*RGB To Hex Conversion
+*RGB To Hex Conversion*
 https://www.codewars.com/kata/rgb-to-hex-conversion/train/javascript
 ```javascript
 function rgb(r, g, b) {
@@ -430,7 +430,7 @@ function rgb(r, g, b) {
   return (trans(r) + trans(g) + trans(b)).toUpperCase();
 }
 ```
-*Maximum Triplet Sum (Array Series #7)
+*Maximum Triplet Sum (Array Series #7)*
 https://www.codewars.com/kata/maximum-triplet-sum-array-series-number-7/train/javascript
 ```javascript
 function maxTriSum(numbers){
@@ -439,7 +439,7 @@ function maxTriSum(numbers){
 }
 ```
 
-*Two to One
+*Two to One*
 https://www.codewars.com/kata/5656b6906de340bd1b0000ac/train/javascript
 ```javascript
 function longest(s1, s2) {
@@ -448,7 +448,7 @@ function longest(s1, s2) {
   // your code
 }
 ```
-*Alphabet symmetry
+*Alphabet symmetry*
 https://www.codewars.com/kata/alphabet-symmetry/train/javascript
 ```javascript
 function solve(arr){  
@@ -478,7 +478,7 @@ function sumArray(arr) {
   return sum - max - min;
 }
 ```
-* 2 version*
+*2 version*
 ```javascript
 function sumArray(arr) {
   if(!arr || !arr.length || arr.length <= 1){
@@ -615,7 +615,7 @@ function validateUsr(username) {
   }
   return true;
 ```
-#####2 version    
+*2 version*    
 ```javascript
 function validateUsr(username) {
   if(username.length < 4 || username.length > 16){
@@ -627,7 +627,7 @@ function validateUsr(username) {
   return !res;
 }
 ```
-#####3 version
+*3 version*
 ```javascript
 function validateUsr(username) {
   let res =  /^[a-z0-9_]{4,16}$/.test(username); 
