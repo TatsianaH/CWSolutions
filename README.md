@@ -545,7 +545,8 @@ let str = '';
     }
   }
  return str;
-}```
+}
+```
 
 *Alphabet symmetry*
 https://www.codewars.com/kata/alphabet-symmetry/train/javascript
