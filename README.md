@@ -721,4 +721,12 @@ function bookPartition(m, p, c) {
   }
 }
 ```
+*Numbers in strings*
+
+```javascript
+function solve(s){
+  let str = s.match(/\d+/g).sort((a, b) => a - b);
+    return +str[str.length - 1];
+}
+```
   
