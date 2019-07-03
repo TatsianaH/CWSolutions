@@ -729,4 +729,31 @@ function solve(s){
     return +str[str.length - 1];
 }
 ```
-  
+*Get the Middle Character*
+https://www.codewars.com/kata/56747fd5cb988479af000028/train/javascript
+```javascript
+function getMiddle(s){
+  let res;
+  let n = Math.floor(s.length / 2)
+  if(s.length % 2 === 0){
+    res = s[n - 1] + s[n];
+  } else {
+    res = s[n];
+  }
+  return res;
+}
+```
+*Detect Pangram*
+https://www.codewars.com/kata/545cedaa9943f7fe7b000048/train/javascript
+```javascript
+function isPangram(str){
+  let str2 = str.toLowerCase().replace(/\d/g, '').replace(/\W/g, '');
+    str2 = str2.split('').filter((el, i)=> i === str2.indexOf(el)).sort().join('').trim();
+  let alp = 'abcdefghijklmnopqrstuvwxyz';
+  if(str2 === alp){
+    return true;
+  } else {
+    return false;
+  }
+}
+```
