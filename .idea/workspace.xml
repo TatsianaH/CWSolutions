@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5872368-c124-4f13-bcb7-38e8614a990f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hantsevich/s" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/CWSolutions.iml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/CWSolutions.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1N9aMXNw7Q1PZYh2oTu8qhgxlmP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5872368-c124-4f13-bcb7-38e8614a990f" name="Default Changelist" comment="" />
+      <created>1561495718420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561495718420</updated>
+    </task>
+    <task id="LOCAL-00050" summary="added 1 solution Sum without highest and lowest number2">
+      <created>1561788445729</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1561788445731</updated>
+    </task>
+    <task id="LOCAL-00051" summary="merge branch">
+      <created>1561821099970</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1561821099970</updated>
+    </task>
+    <task id="LOCAL-00052" summary="added line">
+      <created>1561821295824</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1561821295824</updated>
+    </task>
+    <task id="LOCAL-00053" summary="added line1">
+      <created>1561821396631</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1561821396632</updated>
+    </task>
+    <task id="LOCAL-00054" summary="removed line1">
+      <created>1561821546385</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1561821546385</updated>
+    </task>
+    <task id="LOCAL-00055" summary="added line">
+      <created>1561831397114</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1561831397114</updated>
+    </task>
+    <task id="LOCAL-00056" summary="removed 1 line">
+      <created>1561831422601</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1561831422601</updated>
+    </task>
+    <task id="LOCAL-00057" summary="removed 1 line">
+      <created>1561831607410</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1561831607410</updated>
+    </task>
+    <task id="LOCAL-00058" summary="added 1 solution Proof Read">
+      <created>1561835071650</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1561835071651</updated>
+    </task>
+    <task id="LOCAL-00059" summary="added 1 new branch">
+      <created>1561837150010</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1561837150010</updated>
+    </task>
+    <task id="LOCAL-00060" summary="added 1 new solution">
+      <created>1561837264134</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1561837264134</updated>
+    </task>
+    <task id="LOCAL-00061" summary="added 1 new solution">
+      <created>1561837351236</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1561837351236</updated>
+    </task>
+    <task id="LOCAL-00062" summary="added tasks">
+      <created>1561838963506</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1561838963506</updated>
+    </task>
+    <task id="LOCAL-00063" summary="added changes">
+      <created>1561839081976</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1561839081976</updated>
+    </task>
+    <task id="LOCAL-00064" summary="added changes">
+      <created>1561839125242</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1561839125242</updated>
+    </task>
+    <task id="LOCAL-00065" summary="added changes">
+      <created>1561839394919</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1561839394919</updated>
+    </task>
+    <task id="LOCAL-00066" summary="added changes">
+      <created>1561839470134</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1561839470134</updated>
+    </task>
+    <task id="LOCAL-00067" summary="added solutions">
+      <created>1561839866334</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1561839866334</updated>
+    </task>
+    <task id="LOCAL-00068" summary=" added solution String Reordering">
+      <created>1561841248412</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1561841248412</updated>
+    </task>
+    <task id="LOCAL-00069" summary=" added solution String Reordering">
+      <created>1561842816088</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1561842816088</updated>
+    </task>
+    <task id="LOCAL-00070" summary=" added solution Disemvowel Trolls">
+      <created>1561845636186</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1561845636186</updated>
+    </task>
+    <task id="LOCAL-00071" summary=" added solution Convert string to camel case">
+      <created>1561847029073</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1561847029073</updated>
+    </task>
+    <task id="LOCAL-00072" summary=" added">
+      <created>1561849408021</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1561849408021</updated>
+    </task>
+    <task id="LOCAL-00073" summary=" added changes">
+      <created>1561849625388</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1561849625388</updated>
+    </task>
+    <task id="LOCAL-00074" summary=" added changes1">
+      <created>1561849906810</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1561849906811</updated>
+    </task>
+    <task id="LOCAL-00075" summary=" added changes1">
+      <created>1561849924593</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1561849924593</updated>
+    </task>
+    <task id="LOCAL-00076" summary="added 1 solution">
+      <created>1561907950679</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1561907950679</updated>
+    </task>
+    <task id="LOCAL-00077" summary="added 1 solution">
+      <created>1561910509489</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1561910509489</updated>
+    </task>
+    <task id="LOCAL-00078" summary="added 1 solution Regex validate PIN cod">
+      <created>1561923199058</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1561923199058</updated>
+    </task>
+    <task id="LOCAL-00079" summary="added 1 solution Dubstep">
+      <created>1561924148450</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1561924148450</updated>
+    </task>
+    <task id="LOCAL-00080" summary="added 1 solution Bumps in the Road">
+      <created>1561926110212</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1561926110212</updated>
+    </task>
+    <task id="LOCAL-00081" summary="added 1 solution Simple validation of a username with regex">
+      <created>1561926743027</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1561926743027</updated>
+    </task>
+    <task id="LOCAL-00082" summary="added 1 solution Simple validation of a username with regex">
+      <created>1561928551383</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1561928551383</updated>
+    </task>
+    <task id="LOCAL-00083" summary="added 1 solution Simple validation of a username with regex">
+      <created>1561929135902</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1561929135902</updated>
+    </task>
+    <task id="LOCAL-00084" summary="added 1 line">
+      <created>1561930909449</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1561930909449</updated>
+    </task>
+    <task id="LOCAL-00085" summary="deleted 1 line">
+      <created>1561931122161</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1561931122161</updated>
+    </task>
+    <task id="LOCAL-00086" summary="made changes">
+      <created>1561940678209</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1561940678210</updated>
+    </task>
+    <task id="LOCAL-00087" summary="added Format a string of names like 'Bart, Lisa &amp; Maggie'.">
+      <created>1561940778852</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1561940778852</updated>
+    </task>
+    <task id="LOCAL-00088" summary="added 1 solution">
+      <created>1562012981678</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1562012981678</updated>
+    </task>
+    <task id="LOCAL-00089" summary="added some changes">
+      <created>1562015640952</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1562015640952</updated>
+    </task>
+    <task id="LOCAL-00090" summary="added 1 solution">
+      <created>1562033712612</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1562033712613</updated>
+    </task>
+    <task id="LOCAL-00091" summary="added 1 solution Numbers in strings">
+      <created>1562033764594</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1562033764594</updated>
+    </task>
+    <task id="LOCAL-00092" summary="added 1 solution Detect Pangram">
+      <created>1562113334878</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1562113334880</updated>
+    </task>
+    <task id="LOCAL-00093" summary="added 1 solution Validate Credit Card Number">
+      <created>1562114339774</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1562114339774</updated>
+    </task>
+    <task id="LOCAL-00094" summary="added 1 solution Mexican Wave">
+      <created>1562115927195</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1562115927195</updated>
+    </task>
+    <task id="LOCAL-00095" summary="&#10;added asterisks">
+      <created>1562199359340</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1562199359340</updated>
+    </task>
+    <task id="LOCAL-00096" summary="deleted 2 signs">
+      <created>1562219579521</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1562219579521</updated>
+    </task>
+    <task id="LOCAL-00097" summary="added exclamation signs!">
+      <created>1562219888193</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1562219888193</updated>
+    </task>
+    <task id="LOCAL-00098" summary="added changes">
+      <created>1562287018059</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1562287018059</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added solutions" />
+    <MESSAGE value=" added solution String Reordering" />
+    <MESSAGE value=" added solution Disemvowel Trolls" />
+    <MESSAGE value=" added solution Convert string to camel case" />
+    <MESSAGE value=" added" />
+    <MESSAGE value=" added changes" />
+    <MESSAGE value=" added changes1" />
+    <MESSAGE value="added 1 solution Regex validate PIN cod" />
+    <MESSAGE value="added 1 solution Dubstep" />
+    <MESSAGE value="added 1 solution Bumps in the Road" />
+    <MESSAGE value="added 1 solution Simple validation of a username with regex" />
+    <MESSAGE value="added 1 line" />
+    <MESSAGE value="deleted 1 line" />
+    <MESSAGE value="made changes" />
+    <MESSAGE value="added Format a string of names like 'Bart, Lisa &amp; Maggie'." />
+    <MESSAGE value="added some changes" />
+    <MESSAGE value="added 1 solution" />
+    <MESSAGE value="added 1 solution Numbers in strings" />
+    <MESSAGE value="added 1 solution Detect Pangram" />
+    <MESSAGE value="added 1 solution Validate Credit Card Number" />
+    <MESSAGE value="added 1 solution Mexican Wave" />
+    <MESSAGE value="&#10;added asterisks" />
+    <MESSAGE value="deleted 2 signs" />
+    <MESSAGE value="added exclamation signs!" />
+    <MESSAGE value="added changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added changes" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+</project>
