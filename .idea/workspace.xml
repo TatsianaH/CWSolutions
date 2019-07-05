@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5872368-c124-4f13-bcb7-38e8614a990f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="f5872368-c124-4f13-bcb7-38e8614a990f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,8 @@
   <component name="ProjectId" id="1N9aMXNw7Q1PZYh2oTu8qhgxlmP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_MANAGE_IGNORE_FILES" value="true" />
+    <property name="MANAGE_IGNORE_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -67,13 +67,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561495718420</updated>
-    </task>
-    <task id="LOCAL-00050" summary="added 1 solution Sum without highest and lowest number2">
-      <created>1561788445729</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1561788445731</updated>
     </task>
     <task id="LOCAL-00051" summary="merge branch">
       <created>1561821099970</created>
@@ -411,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562287018059</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="added 1 solved kata">
+      <created>1562290337075</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1562290337075</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,7 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added solutions" />
     <MESSAGE value=" added solution String Reordering" />
     <MESSAGE value=" added solution Disemvowel Trolls" />
     <MESSAGE value=" added solution Convert string to camel case" />
@@ -473,7 +472,8 @@
     <MESSAGE value="deleted 2 signs" />
     <MESSAGE value="added exclamation signs!" />
     <MESSAGE value="added changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added changes" />
+    <MESSAGE value="added 1 solved kata" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 1 solved kata" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
