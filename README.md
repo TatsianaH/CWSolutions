@@ -956,5 +956,48 @@ function getFirstPython(list) {
   return 'There will be no Python developers';
 }
 ```
-!!!
-
+*Sums of Parts*
+https://www.codewars.com/kata/5ce399e0047a45001c853c2b/train/javascript
+```javascript
+function partsSums(ls) {
+  const arr = [];
+  let num = ls.reduce((acc, curr) => acc + curr, 0);
+  arr.push(num);
+  ls.reverse();
+  let n = ls.length;
+  for (let i = 0; i < n; i++) {
+    num = num - ls.pop();
+    arr.push(num);
+  }
+  return arr;
+}
+```
+*Descending Order*
+https://www.codewars.com/kata/5467e4d82edf8bbf40000155/train/javascript
+```javascript
+function descendingOrder(n){
+  let res = n.toString().split('').map(el => +el).sort((a, b) => b - a).join('');
+  return +res;
+}
+```
+*FIXME: Get Full Name*
+https://www.codewars.com/kata/597c684822bc9388f600010f/train/javascript
+```javascript
+class Dinglemouse{
+  constructor( firstName, lastName ){
+    this.firstName =firstName;
+    this.lastName =lastName;
+  }
+  getFullName(){
+    return `${this.firstName} ${this.lastName}`.trim();
+  } 
+}
+```
+*Coding Meetup #3 - Higher-Order Functions Series - Is Ruby coming?*
+https://www.codewars.com/kata/5827acd5f524dd029d0005a4/train/javascript
+```javascript
+function isRubyComing(list) {
+  return list.find(el => el.language === 'Ruby') ? true : false;
+}
+```
+***
