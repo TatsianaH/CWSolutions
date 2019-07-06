@@ -1136,3 +1136,16 @@ function DNAStrand(dna){
    return dna.split('').map(el => obj[el]).join('');
 }
 ```
+*You're a square!*
+https://www.codewars.com/kata/54c27a33fb7da0db0100040e/train/javascript
+```javascript
+var isSquare = function(n){
+  if(n < 0) return false;
+  let num = Math.sqrt(n);
+  if(Number.isInteger(num)){
+    return true;
+  } else {
+    return false;
+  }
+}
+```
