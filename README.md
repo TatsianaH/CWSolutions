@@ -1399,3 +1399,11 @@ function meeting(x, need){
   return arr;
 }
 ```
+*Find the stray number*
+https://www.codewars.com/kata/find-the-stray-number/train/javascript
+```javascript
+function stray(num) {
+  let res = +num.filter((el, i) => i === num.indexOf(el) && i === num.lastIndexOf(el)).join('')
+  return res;
+}
+```
