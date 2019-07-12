@@ -1583,7 +1583,7 @@ public class Positive{
 *Two Joggers*
 https://www.codewars.com/kata/two-joggers/train/javascript
 ```javascript
-ar nbrOfLaps = function(x, y) {
+var nbrOfLaps = function(x, y) {
   var lcm = x;
   while(lcm % y != 0) {
     lcm += x;
