@@ -1701,3 +1701,14 @@ function cockroachSpeed(s) {
   return Math.floor((s * 1000 * 100 )/ (60 * 60));
 }
 ```
+*For Twins: 1. Types*
+https://www.codewars.com/kata/for-twins-1-types/train/javascript
+```javascript
+function typeValidation(variable, type) {
+  if(typeof variable === type){
+    return true;
+  } else {
+    return false;
+  }
+}
+```
