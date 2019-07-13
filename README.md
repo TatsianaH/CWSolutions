@@ -1712,3 +1712,10 @@ function typeValidation(variable, type) {
   }
 }
 ```
+*isReallyNaN*
+https://www.codewars.com/kata/isreallynan/train/javascript
+```javascript
+const isReallyNaN = (val) => {
+  return Number.isNaN(val);  
+}
+```
