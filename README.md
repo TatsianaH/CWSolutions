@@ -1775,4 +1775,10 @@ function iceBrickVolume(radius, bottleLength, rimLength) {
   return Math.round(a ** 2 * height);
 }
 ```
-      
+*Regex Password Validation*      
+https://www.codewars.com/kata/52e1476c8147a7547a000811/train/javascript
+```javascript
+function validate(password) {
+  return /^(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z])[a-zA-Z0-9]{6,}$/.test(password);
+}
+```
