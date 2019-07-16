@@ -1821,10 +1821,40 @@ function last(...list){
   return !isNaN(+str[str.length-1]) ? +str[str.length-1] : str[str.length-1];
 }
 ```
+*2 variant*
 ```javascript
 function last(list){
   var last = arguments[arguments.length - 1];
   return last[last.length - 1] || last;
+}
+```
+*Welcome!*
+https://www.codewars.com/kata/welcome/train/javascript
+```javascript
+function greet(language) {
+	const dataBase = {
+  english: 'Welcome',
+  czech: 'Vitejte',
+  danish: 'Velkomst',
+  dutch: 'Welkom',
+  estonian: 'Tere tulemast',
+  finnish: 'Tervetuloa',
+  flemish: 'Welgekomen',
+  french: 'Bienvenue',
+  german: 'Willkommen',
+  irish: 'Failte',
+  italian: 'Benvenuto',
+  latvian: 'Gaidits',
+  lithuanian: 'Laukiamas',
+  polish: 'Witamy',
+  spanish: 'Bienvenido',
+  swedish: 'Valkommen',
+  welsh: 'Croeso'
+  };
+  if(!dataBase[language]){
+    return 'Welcome';
+  }
+  return dataBase[language];
 }
 ```
   
