@@ -1917,5 +1917,14 @@ public class EvenOrOdd {
     }
 }
 ```
+*Opposite number*
+https://www.codewars.com/kata/56dec885c54a926dcd001095/train/java
+```java
+public class Kata{
+    public static int opposite(int number){
+        return number * (- 1);
+    }
+}
+```
 
   
