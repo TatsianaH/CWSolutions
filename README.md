@@ -1882,5 +1882,18 @@ var orderedCount = function (text) {
   return [...new Set(text)].map(letter => [letter, text.split(letter).length - 1]);
 };
 ```
+*Understanding closures - the basics*
+https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript
+```javascript
+function buildFun(n){
+	let res = [];
+	for (let i = 0; i< n; i++){
+		res.push(function(){
+			return i;
+		});
+	}
+	return res;
+}
+```
 
   
