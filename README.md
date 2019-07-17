@@ -1875,5 +1875,12 @@ for (let key in meet){
   return (sum/length <= 5) ? 'Get Out Now!' : 'Nice Work Champ!';
 }
 ```
-**
+*Ordered Count of Characters*
+https://www.codewars.com/kata/ordered-count-of-characters/train/javascript
+```javascript
+var orderedCount = function (text) {
+  return [...new Set(text)].map(letter => [letter, text.split(letter).length - 1]);
+};
+```
+
   
