@@ -2050,8 +2050,7 @@ https://www.codewars.com/kata/5808e2006b65bff35500008f/train/java
 public class Kata{
   public static String position(char alphabet){
     String line = "abcdefghijklmnopqrstuvwxyz";
-    int ind = line.indexOf(alphabet) + 1;
-    return "Position of alphabet: " + ind;
+    return "Position of alphabet: " + (line.indexOf(alphabet) + 1);
   }
 }
 ```
