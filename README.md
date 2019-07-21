@@ -2134,3 +2134,17 @@ function clean_string(str) {
   }
 } 
 ```
+*2 version*
+```javascript
+function clean_string(s) {
+  const result = [];
+  for (let letter of s) {
+    if (letter === '#') {
+      result.pop();
+    } else {
+      result.push(letter);
+    }
+  }
+  return result.join('');
+}
+```
