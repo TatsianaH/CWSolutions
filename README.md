@@ -2112,3 +2112,25 @@ function maxMultiple(divisor, bound){
   return Math.trunc(bound/ divisor) * divisor; 
 }
 ```
+*Backspaces in string*
+https://www.codewars.com/kata/backspaces-in-string/train/javascript
+```javascript
+function clean_string(str) {
+  var strArr = str.split('');
+  if(strArr === [] || strArr.indexOf('#') === -1) {
+    return strArr.join('');
+  } else {
+    for(let i = 0; i < strArr.length; i++) {
+      if(strArr[i] === '#') {
+        if(strArr[i-1] === undefined) {
+          strArr.splice(i,1);
+          return clean_string(strArr.join(''));
+        } else {
+          strArr.splice(i-1,2);
+          return clean_string(strArr.join(''));
+        }
+      }
+    }  
+  }
+} 
+```
