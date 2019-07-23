@@ -2190,3 +2190,10 @@ const sumAverage = (arr) => {
   return result;
 }
 ```
+*Number of People in the Bus*
+https://www.codewars.com/kata/number-of-people-in-the-bus/train/javascript
+```javascript
+var number = function(busStops){
+ return busStops.reduce((acc,[a,b])=> (acc + a - b), 0)
+}
+```
