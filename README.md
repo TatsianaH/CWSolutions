@@ -2200,6 +2200,3 @@ var number = function(busStops){
 **
 ```javascript
 ```
-**
-```javascript
-```
