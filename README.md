@@ -2197,6 +2197,4 @@ var number = function(busStops){
  return busStops.reduce((acc,[a,b])=> (acc + a - b), 0)
 }
 ```
-**
-```javascript
 
