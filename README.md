@@ -2332,3 +2332,16 @@ const sequenceSum = (begin, end, step) => {
   return n * (2 * begin + (n - 1) * step) / 2;// formula of arithmetic progression
 };
 ```
+*Playing with cubes I*
+https://www.codewars.com/kata/playing-with-cubes-i/train/java
+```java
+public class Cube{
+  int Side;
+  int getSide(){
+    return this.Side;
+  }
+  void setSide(int Side){
+    this.Side = Side;
+  }
+}
+```
