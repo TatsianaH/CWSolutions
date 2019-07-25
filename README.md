@@ -2316,3 +2316,10 @@ function menFromBoys(arr){
   return even.concat(odd);
 }
 ```
+*Debug Sum of Digits of a Number*
+https://www.codewars.com/kata/debug-sum-of-digits-of-a-number/train/javascript
+```javascript
+function getSumOfDigits(int) {
+  return int.toString().split('').reduce((a, b) => a + +b, 0);
+}
+```
