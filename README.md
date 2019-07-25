@@ -2323,3 +2323,12 @@ function getSumOfDigits(int) {
   return int.toString().split('').reduce((a, b) => a + +b, 0);
 }
 ```
+*Sum of a Sequence [Hard-Core Version]*
+https://www.codewars.com/kata/sum-of-a-sequence-hard-core-version/train/javascript
+```javascript
+const sequenceSum = (begin, end, step) => {
+  if((begin < end && step <= 0) || (begin > end && step >= 0)) return 0;
+    let n = Math.floor((end - begin + step)/step);// amount of numbers in progression
+  return n * (2 * begin + (n - 1) * step) / 2;// formula of arithmetic progression
+};
+```
