@@ -2466,3 +2466,23 @@ function minimumNumber(numbers){
         return res;
 }
 ```
+*2 version*
+```javascript
+function minimumNumber(numbers){
+  let sum = numbers.reduce((a, b) => a + b, 0);
+  let newSum = sum;
+  while(isPrime(newSum) === false){
+    newSum++;
+  }
+ return newSum - sum;
+}
+
+function isPrime(num){
+    for(let i = 2; i < num; i++){
+      if(num % i === 0){
+        return false;
+      }
+    }
+  return true;
+}
+```
