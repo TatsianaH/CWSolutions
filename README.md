@@ -2501,3 +2501,13 @@ function well(x){
     if(count > 2) return 'I smell a series!';
 }
 ```
+*Schrödinger's Boolean*
+https://www.codewars.com/kata/schrodingers-boolean/train/javascript
+```javascript
+const omnibool = {
+  i: 1,
+  toString: function() {
+    return this.i--;
+  }
+};
+```
