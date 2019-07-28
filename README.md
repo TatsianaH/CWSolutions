@@ -2511,3 +2511,17 @@ const omnibool = {
   }
 };
 ```
+*See You Next Happy Year*
+https://www.codewars.com/kata/5ae7e3f068e6445bc8000046/train/javascript
+```javascript
+function nextHappyYear(year){
+  let res = year;
+  for(let i = year; ; i++){
+    res++;
+    let a = res.toString().split('').map(el => +el);
+      if(a[0] !== a[1] && a[0] !== a[2] && a[0] !== a[3] && a[1] !== a[2] && a[1] !== a[3] && a[2] !== a[3]){
+        return +a.join('');
+      }
+   }
+}
+```
