@@ -2525,3 +2525,18 @@ function nextHappyYear(year){
    }
 }
 ```
+*Find the missing term in an Arithmetic Progression*
+https://www.codewars.com/kata/find-the-missing-term-in-an-arithmetic-progression/train/javascript
+```javascript
+var findMissing = function(list) {
+  let res1 = list[1] - list[0];
+  let res2 = list[list.length - 1] - list[list.length - 2];
+  for (let i = 1; i <= list.length + 1; i++) {
+    if (!list.includes(list[0] + i * res1)) {
+      return list[0] + i * res1;
+    } else if (!list.includes(list[0] + i * res2)) {
+      return list[0] + i * res2;
+    }
+  }
+}
+```
