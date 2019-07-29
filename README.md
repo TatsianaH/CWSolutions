@@ -2570,9 +2570,6 @@ public class EncapsulationDemo {
   }
 
   public EncapsulationDemo() {
-    this.number = number;
-    this.stringValue = stringValue;
-    this.anObject = anObject;
   };
 
   public EncapsulationDemo(int number, String stringValue, Object anObject) {
