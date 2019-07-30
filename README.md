@@ -2494,3 +2494,18 @@ function sortTheInnerContent(words){
   return arr.join(' ');
 }
 ```
+*Valid Parentheses*
+https://www.codewars.com/kata/valid-parentheses/train/javascript
+```javascript
+function validParentheses(parens){
+  let sum = 0;
+  if(parens[0] === ')') return false;
+  for(let i = 0; i < parens.length; i++){
+    if(parens[i] === '(') sum++;
+    if(parens[i] === ')') sum--;
+    if(sum < 0) return false;
+    }
+if(sum === 0) return true;
+if(sum !== 0) return false;
+}
+```
