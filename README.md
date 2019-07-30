@@ -2576,3 +2576,28 @@ function bracesStatus(str){
   return true;
 }
 ```
+*Valid Braces*
+https://www.codewars.com/kata/valid-braces/train/javascript
+```javascript
+function validBraces(b){
+  const arr = [];
+  for(let i = 0; i < b.length; i++){
+    if(b[i] === '(' || b[i] === '{' || b[i] === '['){
+      arr.push(b[i]);
+    }
+    if(b[i] === ')'){
+      let r = arr.pop();
+      if(r !== '(') return false;
+    }
+    if(b[i] === '}'){
+      let r = arr.pop();
+      if(r !== '{') return false;
+    }
+    if(b[i] === ']'){
+      let r = arr.pop();
+      if(r !== '[') return false;
+    }
+  }
+    return arr.length === 0;
+}
+```
