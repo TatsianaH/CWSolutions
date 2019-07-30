@@ -2480,3 +2480,17 @@ function solution(str) {
   return arr.join('');
 }
 ```
+*Srot the inner ctonnet in dsnnieedcg oredr*
+https://www.codewars.com/kata/5898b4b71d298e51b600014b/train/javascript
+```javascript
+function sortTheInnerContent(words){
+  let arr = words.split(' ');
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i].length > 3){
+      let word = arr[i][0] + arr[i].slice(1, arr[i].length - 1).split('').sort().reverse().join('') + arr[i][arr[i].length - 1];
+      arr[i] = word;
+    }
+  }
+  return arr.join(' ');
+}
+```
