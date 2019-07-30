@@ -2508,3 +2508,38 @@ if(sum === 0) return true;
 if(sum !== 0) return false;
 }
 ```
+*Braces status*
+https://www.codewars.com/kata/braces-status/train/javascript
+```javascript
+function bracesStatus(str) {
+  const arr = [];
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === '(') {
+      arr.push(str[i]);
+    } else if (arr.includes('(') && str[i] === ')') {
+      arr.pop();
+    } else if (!arr.includes('(') && str[i] === ')') {
+      return false;
+    }
+    if (str[i] === '[') {
+      arr.push(str[i]);
+    } else if (arr.includes('[') && str[i] === ']') {
+      arr.pop();
+    } else if (!arr.includes('[') && str[i] === ']') {
+      return false;
+    }
+    if (str[i] === '{') {
+      arr.push(str[i]);
+    } else if (arr.includes('{') && str[i] === '}') {
+      arr.pop();
+    } else if (!arr.includes('{') && str[i] === '}') {
+      return false;
+    }
+  }
+  if (arr.length === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+```
