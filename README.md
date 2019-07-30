@@ -2467,3 +2467,16 @@ function count (str) {
 return obj;
 }
 ```
+*Break camelCase*
+https://www.codewars.com/kata/5208f99aee097e6552000148/train/javascript
+```javascript
+function solution(str) {
+  let arr = str.split('');
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i] === arr[i].toUpperCase()){
+      arr[i] = ' ' + arr[i];
+    }
+  }
+  return arr.join('');
+}
+```
