@@ -2611,3 +2611,44 @@ function getDivisorsCnt(n){
    return count;
 }
 ```
+*Building blocks*
+https://www.codewars.com/kata/building-blocks/train/java
+```java
+public class Block{
+  private int width;
+  private int length;
+  private int height;
+  private int volume;
+  private int surfaceArea;
+  
+  // Constructor
+  public Block(int[] params) {
+    this.width = params[0];
+    this.length = params[1];
+    this.height = params[2];
+    
+    volume = width * length * height;
+    surfaceArea = 2 * (width * length + width * height + length * height);
+  }
+  
+  public int getWidth() {
+    return width;
+  }
+  
+  public int getLength() {
+    return length;
+  }
+  
+  public int getHeight() {
+    return height;
+  }
+  
+  public int getVolume() {
+    return volume;
+  }
+  
+  public int getSurfaceArea() {
+    return surfaceArea;
+  }
+}
+```
