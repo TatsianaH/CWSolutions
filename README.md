@@ -2652,3 +2652,20 @@ public class Block{
   }
 }
 ```
+*Count characters in your string*
+https://www.codewars.com/kata/count-characters-in-your-string/train/javascript
+```javascript
+function count (str) {
+  if(str === '') return {};
+  const obj = {};
+  let amountOfA = str.split('').filter(el => el === 'a').length;
+  let amountOfB = str.length - amountOfA;
+  if(amountOfA > 0){
+    obj.a = amountOfA;
+  }
+  if(amountOfB > 0){
+    obj.b = amountOfB;
+  }
+return obj;
+}
+```
