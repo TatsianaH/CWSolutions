@@ -2639,4 +2639,4 @@ function numPrimorial(n){
     }
   return res.reduce((a, b) => a * b, 1);  
 }
-``````
+```
