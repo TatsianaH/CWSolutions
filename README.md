@@ -2601,3 +2601,19 @@ function validBraces(b){
     return arr.length === 0;
 }
 ```
+*Primorial Of a Number*
+https://www.codewars.com/kata/primorial-of-a-number/train/javascript
+```javascript
+function numPrimorial(n){
+  const arr = [];
+  nextPrime:
+  for (let i = 2; i <= 100; i++) {
+    for (let j = 2; j < i; j++) {
+      if (i % j === 0) continue nextPrime;
+    }
+      arr.push(i);
+  }
+  let res = arr.slice(0, n).reduce((a, b) => a * b, 1);
+  return res;
+}
+```
