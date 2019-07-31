@@ -2617,3 +2617,26 @@ function numPrimorial(n){
   return res;
 }
 ```
+*2 version*
+```javascript
+function isPrime(num){
+  for(let i = 2; i < num; i++){
+    if(num % i === 0){
+      return false;
+    }
+  }
+    return true;
+}
+
+function numPrimorial(n){
+  const res = [];
+  let j = 2;
+  while(res.length < n){
+    if(isPrime(j)){
+      res.push(j);
+    }
+      j++;
+    }
+  return res.reduce((a, b) => a * b, 1);  
+}
+``````
