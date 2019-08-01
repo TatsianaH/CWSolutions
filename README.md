@@ -2662,3 +2662,10 @@ Array.prototype.odd = function () {
 return this.filter(a => a % 2 === 1); 
 }
 ```
+*Array Deep Count*
+https://www.codewars.com/kata/array-deep-count/train/javascript
+```javascript
+function deepCount(a){
+  return a.reduce((s,e) => s + (Array.isArray(e) ? deepCount(e) : 0), a.length);
+}
+```
