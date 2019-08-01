@@ -2669,3 +2669,23 @@ function deepCount(a){
   return a.reduce((s,e) => s + (Array.isArray(e) ? deepCount(e) : 0), a.length);
 }
 ```
+*Where is my parent!?(cry)*
+https://www.codewars.com/kata/where-is-my-parent-cry/train/javascript
+```javascript
+function findChildren(d){
+  let alph = 'abcdefghijklmnopqrstuvwxyz';
+  let res = '';
+  let arr = d.split('').sort();
+  const arrP = arr.filter(el => el === el.toUpperCase());
+  const arrC = arr.filter(el => el === el.toLowerCase());
+  for(let i = 0; i < arrP.length; i++){
+    res += arrP[i];
+    for(let j = 0; j < arrC.length; j++){
+      if(arrP[i].toLowerCase() === arrC[j]){
+        res += arrC[j];
+      }
+    }
+  }
+  return res;
+}
+```
