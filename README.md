@@ -2673,7 +2673,6 @@ function deepCount(a){
 https://www.codewars.com/kata/where-is-my-parent-cry/train/javascript
 ```javascript
 function findChildren(d){
-  let alph = 'abcdefghijklmnopqrstuvwxyz';
   let res = '';
   let arr = d.split('').sort();
   const arrP = arr.filter(el => el === el.toUpperCase());
