@@ -2741,3 +2741,19 @@ function solve(s){
   return count;
 }
 ```
+*Write Number in Expanded Form*
+https://www.codewars.com/kata/write-number-in-expanded-form/train/javascript
+```javascript
+function expandedForm(num) {
+  let str = [];
+  num = num.toString().split('');
+  for(let i = 0; i < num.length; i++){
+    if(num[i] !== '0' && i !== num.length - 1){
+      str.push(num[i] + '0'.repeat(num.length - i - 1));
+    } else if (num[i] === num[num.length - 1] && num[num.length - 1] !== '0'){
+      str.push(num[i]);
+    }
+  }
+  return str.join(' + ');
+}
+```
