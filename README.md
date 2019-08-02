@@ -2688,3 +2688,13 @@ function findChildren(d){
   return res;
 }
 ```
+*Regexp Basics - is it IPv4 address?*
+https://www.codewars.com/kata/regexp-basics-is-it-ipv4-address/train/javascript
+```javascript
+String.prototype.ipv4Address=function(){
+  if(this.match(/^([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])\.([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])\.([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])\.([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])$/)){
+    return true;
+  }
+    return false;
+}
+```
