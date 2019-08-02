@@ -2723,3 +2723,21 @@ function balance(left, right) {
   if (countL > countR) return 'Left';
 }
 ```
+*Simple reversed parenthesis*
+https://www.codewars.com/kata/simple-reversed-parenthesis/train/javascript
+```javascript
+function solve(s){
+  while(s.includes('()')){
+    s = s.replace(/\(\)/g, '');
+  }
+  if(s.length % 2 !== 0) return -1;
+    let count = 0;
+    let arr = [')(', '((', '))'];
+    for(let i = 0; i < s.length; i += 2){
+      if(s[i] + s[i + 1] === arr[0]) count +=2;
+      if(s[i] + s[i + 1] === arr[1]) count +=1;
+      if(s[i] + s[i + 1] === arr[2]) count +=1;
+}
+  return count;
+}
+```
