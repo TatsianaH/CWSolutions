@@ -2757,3 +2757,22 @@ function expandedForm(num) {
   return str.join(' + ');
 }
 ```
+*Write Number in Expanded Form - Part 2*
+https://www.codewars.com/kata/write-number-in-expanded-form-part-2/train/javascript
+```javascript
+function expandedForm(num) {
+  num = num.toString().split('.');
+  const arr = [];
+  for(let i = 0; i < num[0].length; i++){
+    if(num[0][i] !== '0'){
+      arr.push(+num[0][i] * 10 ** (num[0].length - 1 - i));
+    } 
+  }
+  for(let i = 0; i < num[1].length; i++){
+    if(num[1][i] !== '0'){
+      arr.push(num[1][i] +'/'+ (10 ** (i + 1)));
+    }
+  }
+    return arr.join(' + ');
+}
+```
