@@ -2698,3 +2698,28 @@ String.prototype.ipv4Address=function(){
     return false;
 }
 ```
+*Exclamation marks series #17: Put the exclamation marks and question marks to the balance, Are they balanced?*
+https://www.codewars.com/kata/exclamation-marks-series-number-17-put-the-exclamation-marks-and-question-marks-to-the-balance-are-they-balanced/train/javascript
+```javascript
+function balance(left, right) {
+  let countL = 0;
+  let countR = 0;
+  for (let i = 0; i < left.length || i < right.length; i++) {
+    if (left[i] === '!') {
+      countL += 2;
+    }
+    if (left[i] === '?') {
+      countL += 3;
+    }
+    if (right[i] === '!') {
+      countR += 2;
+    }
+    if (right[i] === '?') {
+      countR += 3;
+    }
+  }
+  if (countL === countR) return 'Balance';
+  if (countL < countR) return 'Right';
+  if (countL > countR) return 'Left';
+}
+```
