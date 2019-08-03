@@ -2776,3 +2776,18 @@ function expandedForm(num) {
     return arr.join(' + ');
 }
 ```
+*Organise duplicate numbers in list*
+https://www.codewars.com/kata/organise-duplicate-numbers-in-list/train/javascript
+```javascript
+function group(arr) {
+  let res = [];
+  let arr2 = [...new Set(arr)];
+  for(let i = 0; i < arr2.length; i++){
+    let num = arr.filter(el => el === arr2[i]);
+    if(!res.includes(num)){
+      res.push(num);
+    }
+  }
+  return res;
+}
+```
