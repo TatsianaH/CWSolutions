@@ -2791,3 +2791,13 @@ function group(arr) {
   return res;
 }
 ```
+*Recursion #1 - Factorial*
+https://www.codewars.com/kata/recursion-number-1-factorial/train/javascript
+```javascript
+const factorial = n => {
+  if(n === 0) return 1;
+  if(n > 0){
+    return n * factorial(n - 1);
+  }
+};
+```
