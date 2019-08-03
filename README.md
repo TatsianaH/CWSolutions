@@ -2810,3 +2810,13 @@ const fibonacci = n => {
   return fibonacci(n - 1) + fibonacci(n - 2);
 };
 ```
+*Fibonacci Generator Function*
+https://www.codewars.com/kata/58a5d9aaa49f6cd0f9000ad7/train/javascript
+```javascript
+function* fibonacci(fn1 = 1, fn2 = 0, current = 0) {
+  while (true) {
+    [current, fn2, fn1] = [fn2, fn1, fn1 + fn2];
+    yield current;
+  }
+}
+```
