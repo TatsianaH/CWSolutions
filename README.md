@@ -2820,3 +2820,17 @@ function* fibonacci(fn1 = 1, fn2 = 0, current = 0) {
   }
 }
 ```
+*Fibonacci Reloaded*
+https://www.codewars.com/kata/52549d3e19453df56f0000fe/train/javascript
+```javascript
+function fib(n) {
+   const arr = [0, 1];
+   if(n === 1) return 0;
+   if(n === 2) return 1;
+   for(let i = 2; i < n; i++){
+     let num = arr[i - 1] + arr[i- 2];
+       arr.push(num);
+   }
+   return arr[arr.length - 1];
+}
+```
