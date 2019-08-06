@@ -2854,3 +2854,16 @@ var encryptThis = function(text) {
   return arr.join(' ');
 }
 ```
+*Memesorting*
+https://www.codewars.com/kata/memesorting/train/javascript
+```javascript
+const memesorting = meme => {
+
+  switch ([...meme].reverse().join('').match(/.*(g.*u.*b|m.*o.*o.*b|s.*t.*i.*d.*e|^)/i)[1].charAt(0).toLowerCase()) {
+    case 's': return 'Danik';
+    case 'g': return 'Roma';
+    case 'm': return 'Maxim';
+    default: return 'Vlad';
+  }
+}
+```
