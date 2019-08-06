@@ -2867,3 +2867,11 @@ const memesorting = meme => {
   }
 }
 ```
+*Days in the year*
+https://www.youtube.com/watch?v=ZoOZfePzsmc
+```javascript
+const yearDays = year =>
+  `${year} has ${
+    (!(year % 100) && year % 400) || year % 4 ? '365' : '366'
+  } days`;
+```
