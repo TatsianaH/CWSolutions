@@ -2834,3 +2834,23 @@ function fib(n) {
    return arr[arr.length - 1];
 }
 ```
+*Encrypt this!*
+https://www.codewars.com/kata/5848565e273af816fb000449/train/javascript
+```javascript
+var encryptThis = function(text) {
+  const arr = text.split(' ');
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].length > 1) {
+      arr[i] = arr[i].split('');
+      let temp = arr[i][1];
+      arr[i][1] = arr[i][arr[i].length - 1];
+      arr[i][arr[i].length - 1] = temp;
+      arr[i] = arr[i].join('');
+      arr[i] = arr[i][0].charCodeAt(0) + arr[i].slice(1);
+    } else {
+      arr[i] = arr[i][0].charCodeAt(0);
+    }
+  }
+  return arr.join(' ');
+}
+```
