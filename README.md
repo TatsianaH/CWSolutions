@@ -2875,3 +2875,17 @@ const yearDays = year =>
     (!(year % 100) && year % 400) || year % 4 ? '365' : '366'
   } days`;
 ```
+*Minimum Steps (Array Series #6)*
+https://www.codewars.com/kata/minimum-steps-array-series-number-6/train/javascript
+```javascript
+function minimumSteps(num, val){
+let sum = 0;
+let steps = 0;
+  num = num.sort((a, b) => a -b);
+  for(let i = 0; i < num.length; i++){
+  sum += num[i];
+  steps++;
+  if(sum >= val) return steps - 1;
+  }
+}
+```
