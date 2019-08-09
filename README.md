@@ -2903,3 +2903,16 @@ const babySharkLyrics = () => {
   return l;
 }
 ```
+*Money, Money, Money*
+https://www.codewars.com/kata/563f037412e5ada593000114/train/javascript
+```javascript
+function calculateYears(p, int, tax, d) {
+  if(p === d) return 0;
+  let y = 0;
+  while(p < d){
+    p += (p * int)  - (p * int * tax);
+    ++y;
+  }
+  return y;
+}
+```
