@@ -2916,3 +2916,25 @@ function calculateYears(p, int, tax, d) {
   return y;
 }
 ```
+*Dashatize it*
+https://www.codewars.com/kata/58223370aef9fc03fd000071/train/javascript
+```javascript
+function dashatize(num) {
+  if(num < 0){
+    num = num * (-1);
+    if(num <= 9) return num.toString();
+  }
+  if(num <= 9) return num.toString();
+  const arr = num.toString().split('');
+  for(let i = 0; i < arr.length; i++){
+    if(+arr[i] % 2 === 1 && arr[i] !== arr[0] && arr[i] !== arr[arr.length - 1]){
+      arr[i] = '-' + arr[i] + '-';
+    } else if(+arr[i] % 2 === 1  && arr[i] === arr[0]){
+      arr[i] = arr[i] + '-';
+    } else if(+arr[i] % 2 === 1 && arr[i] === arr[arr.length - 1]){
+      arr[i] = '-' + arr[i];
+    }
+  }
+  return arr.join('').replace(/\-+/g, '-');
+}
+```
