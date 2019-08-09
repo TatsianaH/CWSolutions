@@ -2889,3 +2889,17 @@ let steps = 0;
   }
 }
 ```
+*Baby shark lyrics generator*
+https://www.codewars.com/kata/baby-shark-lyrics-generator/train/javascript
+```javascript
+const babySharkLyrics = () => {
+  const fish = ['Baby shark','Mommy shark','Daddy shark','Grandma shark','Grandpa shark',"Let's go hunt"];
+  let l = '';
+  let s =' doo'.repeat(6);
+  fish.map(f => {
+    l +=`${f},${s}\n`.repeat(3)+`${f}!\n`;
+  })
+  l += 'Run away,…';
+  return l;
+}
+```
