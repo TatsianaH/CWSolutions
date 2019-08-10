@@ -2960,3 +2960,6 @@ function addedChar(s1, s2){
   }
 }
 ```
+*Banker's Plan*
+https://www.codewars.com/kata/56445c4755d0e45b8c00010a/train/javascript
+```javascript
