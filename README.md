@@ -2963,3 +2963,14 @@ function addedChar(s1, s2){
 *Banker's Plan*
 https://www.codewars.com/kata/56445c4755d0e45b8c00010a/train/javascript
 ```javascript
+function fortune(f0, p, c0, n, i) {
+  let j = 1;
+  let sum = f0;
+  let withdraw = c0;
+  while (j < n){
+    sum = Math.ceil(sum + (p/100 * sum) - withdraw);
+    withdraw = Math.ceil(withdraw + (withdraw * i/100));
+    j++;
+  }
+  return sum >= 0 ;
+}
