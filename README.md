@@ -2978,3 +2978,12 @@ function fortune(f0, p, c0, n, i) {
 *Grouped by commas*
 https://www.codewars.com/kata/5274e122fc75c0943d000148/train/javascript
 ```javascript
+function groupByCommas(n) {
+  if(n < 1000) return n.toString();
+    n = n.toString().split('').reverse();
+  for(let i = 3; i < n.length; i = i + 3){
+    n[i] = n[i] + ',';
+  }
+  return n.reverse().join('');
+}
+```
