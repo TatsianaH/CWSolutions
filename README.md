@@ -2999,3 +2999,6 @@ function selReverse(array, length) {
   return result;
 }
 ```
+*Simple Fun #79: Delete a Digit*
+https://www.codewars.com/kata/5894318275f2c75695000146/train/javascript
+```javascript
