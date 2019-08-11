@@ -3015,3 +3015,6 @@ function deleteDigit(n) {
   return Math.max(...arr2);
 }
 ```
+*Driving Licence*
+https://www.codewars.com/kata/586a1af1c66d18ad81000134/train/javascript
+```javascript
