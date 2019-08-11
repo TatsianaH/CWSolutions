@@ -2987,3 +2987,6 @@ function groupByCommas(n) {
   return n.reverse().join('');
 }
 ```
+*Selective Array Reversing*
+https://www.codewars.com/kata/selective-array-reversing/train/javascript
+```javascript
