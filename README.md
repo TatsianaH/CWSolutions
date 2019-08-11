@@ -3002,3 +3002,16 @@ function selReverse(array, length) {
 *Simple Fun #79: Delete a Digit*
 https://www.codewars.com/kata/5894318275f2c75695000146/train/javascript
 ```javascript
+function deleteDigit(n) {
+  let arr = n.toString().split('');
+  let arr2 = [];
+  for(let i = 0; i < arr.length; i++){
+    let temp = arr[i];
+    arr[i] = '';
+    arr2.push(arr.filter(el => el !== '').join(''));
+    arr[i] = temp;
+  }
+    arr2 = arr2.map(el => +el)
+  return Math.max(...arr2);
+}
+```
