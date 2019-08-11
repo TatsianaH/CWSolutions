@@ -3018,3 +3018,41 @@ function deleteDigit(n) {
 *Driving Licence*
 https://www.codewars.com/kata/586a1af1c66d18ad81000134/train/javascript
 ```javascript
+function driver(data) {
+  const months = [0, 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  let res = '';
+  if (data[2].length >= 5) {
+    data[2] = data[2].slice(0, 5);
+  } else {
+    let num = 5 - data[2].length;
+    data[2] = data[2] + '9'.repeat(num);
+  }
+  res += data[2].toUpperCase();
+  let dayOb = data[3].slice(0, 2);
+  let yearOb = data[3].slice(-4);
+  let dOb = data[3].slice(2, data[3].length - 4);
+  for (let i = 1; i <= months.length; i++) {
+    if (dOb.includes(months[i])) {
+      let index = months.indexOf(months[i]);
+      if (index < 10) {
+        index = '0' + index;
+      }
+      dOb = dOb.replace(/\-[a-zA-z]/gi, index).slice(0, 2)
+    }
+  }
+  res += yearOb.slice(-2, -1);
+  if (data[4] === 'M') {
+    res += dOb;
+  } else {
+    res += +dOb + 50;
+  }
+  res += dayOb + yearOb[yearOb.length - 1];
+  res += data[0].slice(0, 1);
+  if (data[1] === '') {
+    data[1] = '9';
+  }
+  res += data[1].slice(0, 1);
+  res += '9AA';
+  return res;
+}
+```
