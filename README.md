@@ -3059,3 +3059,23 @@ function driver(data) {
 *Loose Change*
 https://www.codewars.com/kata/5571f712ddf00b54420000ee/train/javascript
 ```javascript
+function looseChange(cents) {
+  const obj = {
+    'Nickels': 0,
+    'Pennies': 0,
+    'Dimes': 0,
+    'Quarters': 0
+  };
+  if (cents <= 0) return obj;
+  let q = 25;
+  let d = 10;
+  let n = 5;
+  let p = 1;
+  cents = Math.floor(cents);
+  obj.Quarters = Math.trunc(cents / q);
+  obj.Dimes = Math.trunc((cents - obj.Quarters * 25) / d);
+  obj.Nickels = Math.trunc(((cents - obj.Quarters * 25) - (obj.Dimes * 10)) / n);
+  obj.Pennies = Math.trunc(((cents - obj.Quarters * 25) - (obj.Dimes * 10) - obj.Nickels * 5) / p);
+  return obj;
+}
+```
