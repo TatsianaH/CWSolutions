@@ -3079,3 +3079,16 @@ function looseChange(cents) {
   return obj;
 }
 ```
+*Sorted? yes? no? how?*
+https://www.codewars.com/kata/580a4734d6df748060000045/train/javascript
+```javascript
+function isSortedAndHow(arr) {
+    if(arr.length === 2 && arr[0] > arr[1] || arr.length > 2 && arr[0] > arr[1] && arr[1] > arr[2]){
+      return 'yes, descending';
+    } else if (arr.length === 2 && arr[0] < arr[1] || arr.length > 2 && arr[0] < arr[1] && arr[1] < arr[2]){
+      return 'yes, ascending';
+    } else {
+      return 'no';
+    }
+}
+```
