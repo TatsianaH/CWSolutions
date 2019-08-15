@@ -3105,4 +3105,4 @@ for(let i = 0; i < word.length; i++){
 return arr;
 };
 ```
-**
+*************
