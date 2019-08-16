@@ -3120,3 +3120,14 @@ function countRepeats(str) {
 }
 ```
 *String Breakers*
+https://www.codewars.com/kata/59d398bb86a6fdf100000031/train/javascript
+```javascript
+function stringBreakers(n, str){
+  let arr = str.replace(/\s/g, '').split('');
+  let res = '';
+  for(let i = 0; i < arr.length; i = i + n){
+    res = res + arr.slice(i, i + n).join('') + "\n";
+  }
+  return res.slice(0, -1);
+}
+```
