@@ -3108,3 +3108,14 @@ return arr;
 *Count Repeats*
 https://www.codewars.com/kata/598ee7b6ec6cb90dd6000061/train/javascript
 ```javascript
+function countRepeats(str) {
+  const arr = str.split('');
+  let s = [];
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i] !== s[s.length - 1]){
+    s.push(arr[i]);
+    }
+  }
+  return str.length - s.length;
+}
+```
