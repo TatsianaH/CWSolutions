@@ -3138,4 +3138,4 @@ function solve(arr){
     return arr.filter((el, i) => i === arr.lastIndexOf(el));
 }
 ```
-******
+********
