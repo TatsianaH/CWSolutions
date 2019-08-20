@@ -3141,3 +3141,13 @@ function solve(arr){
 *Only Duplicates*
 codewars.com/kata/5a1dc4baffe75f270200006b/train/javascript
 ```javascript
+function onlyDuplicates(str) {
+  let res = '';
+  for(let i = 0; i < str.length; i++){
+    if(!(i === str.indexOf(str[i]) && i === str.lastIndexOf(str[i]))){
+      res += str[i];
+    }
+  }
+  return res;
+}
+```
