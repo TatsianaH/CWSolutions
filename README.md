@@ -3138,3 +3138,6 @@ function solve(arr){
     return arr.filter((el, i) => i === arr.lastIndexOf(el));
 }
 ```
+*Only Duplicates*
+codewars.com/kata/5a1dc4baffe75f270200006b/train/javascript
+```javascript
