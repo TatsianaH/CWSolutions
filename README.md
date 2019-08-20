@@ -3151,3 +3151,15 @@ function onlyDuplicates(str) {
   return res;
 }
 ```
+*2 case*
+```javascript
+function onlyDuplicates(str) {
+  let res = '';
+  for(let i = 0; i < str.length; i++){
+    if(str.indexOf(str[i]) !== str.lastIndexOf(str[i])){
+      res += str[i];
+    }
+  }
+  return res;
+}
+```
