@@ -3198,3 +3198,17 @@ function solution(...arr){
   return [...new Set(arr)].length !== arr.length;
 }
 ```
+*Remove consecutive duplicate words*
+https://www.codewars.com/kata/5b39e91ee7a2c103300018b3/train/javascript
+```javascript
+const removeConsecutiveDuplicates = s => {
+  const arr = s.split(' ');
+  const arr2 = [];
+  for(let i = 0; i < arr.length; i++){
+    if(arr2[arr2.length - 1] !== arr[i]){
+      arr2.push(arr[i]);
+    }
+  }
+  return arr2.join(' ');
+}
+```
