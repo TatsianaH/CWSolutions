@@ -3191,3 +3191,10 @@ function reverseCase(string) {
   return string.replace(/([a-zA-Z])\1+/g, v => v.toLowerCase() === v ? v.toUpperCase() : v.toLowerCase());
 }
 ```
+*Duplicate Arguments*
+https://www.codewars.com/kata/duplicate-arguments/train/javascript
+```javascript
+function solution(...arr){
+  return [...new Set(arr)].length !== arr.length;
+}
+```
