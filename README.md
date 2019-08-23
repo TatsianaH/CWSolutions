@@ -3212,3 +3212,10 @@ const removeConsecutiveDuplicates = s => {
   return arr2.join(' ');
 }
 ```
+*Train to remove duplicates from an array with filter()*
+https://www.codewars.com/kata/train-to-remove-duplicates-from-an-array-with-filter/train/javascript
+```javascript
+function unique(arr) {
+  return arr.filter((el, i) => i === arr.indexOf(el));
+}
+```
