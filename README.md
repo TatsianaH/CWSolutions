@@ -3253,3 +3253,10 @@ function spam(number){
   return "hue".repeat(number);
 }
 ```
+*Failed Sort - Bug Fixing #4*
+https://www.codewars.com/kata/failed-sort-bug-fixing-number-4/train/javascript
+```javascript
+var sortArray = function(value) {
+  return value.split('').sort().join('');
+}
+```
