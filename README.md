@@ -3260,3 +3260,10 @@ var sortArray = function(value) {
   return value.split('').sort().join('');
 }
 ```
+*Regex Failure - Bug Fixing #2*
+https://www.codewars.com/kata/regex-failure-bug-fixing-number-2/train/javascript
+```javascript
+function filterWords(phrase){
+  return phrase.replace(/bad|mean|ugly|horrible|hideous/gi,'awesome');
+}
+```
