@@ -3240,3 +3240,9 @@ function getAge(inputString){
   return +inputString.charAt(0);
 }
 ```
+*2 case*
+```javascript
+function getAge(inputString){
+  return parseInt(inputString);
+}
+```
