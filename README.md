@@ -3267,3 +3267,6 @@ function filterWords(phrase){
   return phrase.replace(/bad|mean|ugly|horrible|hideous/gi,'awesome');
 }
 ```
+*Range Extraction*
+https://www.codewars.com/kata/range-extraction/train/javascript
+```javascript
