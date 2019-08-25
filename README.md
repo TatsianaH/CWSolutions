@@ -3288,4 +3288,20 @@ function solution(l) {
   return str.slice(0, -1);
 }
 ```
-**
+*Array comparator*
+https://www.codewars.com/kata/561046a9f629a8aac000001d/train/javascript
+```javascript
+function matchArrays(v,r){
+  let res = 0;
+  if(v.length >= r.length){
+    for(let i = 0; i < v.length; i++){
+      if(v.includes(r[i])) res += 1;
+    }
+  } else{
+    for(let i = 0; i < r.length; i++){a
+      if(v.includes(r[i])) res += 1;
+    }
+  }
+  return res;
+}
+```
