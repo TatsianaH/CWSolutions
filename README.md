@@ -3298,7 +3298,7 @@ function matchArrays(v,r){
       if(v.includes(r[i])) res += 1;
     }
   } else{
-    for(let i = 0; i < r.length; i++){a
+    for(let i = 0; i < r.length; i++){
       if(v.includes(r[i])) res += 1;
     }
   }
