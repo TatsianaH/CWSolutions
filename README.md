@@ -3270,3 +3270,21 @@ function filterWords(phrase){
 *Range Extraction*
 https://www.codewars.com/kata/range-extraction/train/javascript
 ```javascript
+function solution(l) {
+  let str = '';
+  for (let i = 0; i < l.length; i++) {
+    if (l[i] + 1 !== l[i + 1]) {
+      str += l[i].toString() + ',';
+    } else if (l[i] + 1 === l[i + 1] && l[i + 1] + 1 === l[i + 2] && l[i] - 1 !== l[i - 1]) {
+      str += l[i].toString() + '-';
+    } else if (str[str.length - 1] === '-' && l[i + 1] !== (l[i] + 1)) {
+      str += l[i].toString() + ',';
+    } else if ((l[i] - 1) === l[i - 1] && (l[i] + 1) === l[i + 1]) {
+      str = str;
+    } else {
+      str += l[i].toString() + ',';
+    }
+  }
+  return str.slice(0, -1);
+}
+```
