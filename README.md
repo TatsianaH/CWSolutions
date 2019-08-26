@@ -3305,3 +3305,20 @@ function matchArrays(v,r){
   return res;
 }
 ```
+*String transformer*
+https://www.codewars.com/kata/5878520d52628a092f0002d0/train/javascript
+```javascript
+function stringTransformer(str) {
+  str = str.split('');
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === str[i].toUpperCase()) {
+      str[i] = str[i].toLowerCase();
+    } else {
+      str[i] = str[i].toUpperCase();
+    }
+  }
+  str = str.join('');
+  let arr = str.split(' ').reverse();
+  return arr.join(' ');
+}
+```
