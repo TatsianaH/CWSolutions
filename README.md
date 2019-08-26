@@ -3322,3 +3322,14 @@ function stringTransformer(str) {
   return arr.join(' ');
 }
 ```
+*Tidy Number (Special Numbers Series #9)*
+https://www.codewars.com/kata/5a87449ab1710171300000fd/train/javascript
+```javascript
+function tidyNumber(n){
+  n = n.toString().split('');
+  for(let i = 0; i < n.length; i++){
+    if(n[i] > n[i + 1]) return false;
+  }
+  return true;
+}
+```
