@@ -3374,3 +3374,6 @@ function present(x, y) {
   }
 }
 ```
+*Longest palindrome*
+https://www.codewars.com/kata/5a0178f66f793bc5b0001728/train/javascript
+```javascript
