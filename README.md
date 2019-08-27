@@ -3400,3 +3400,7 @@ function longestPalindrome(str) {
 *Multiply array values and filter non-numeric*
 https://www.codewars.com/kata/55ed875819ae85ca8b00005c/train/javascript
 ```javascript
+function multiplyAndFilter(arr, mult){
+  return arr.filter(el => typeof el === 'number').map(el => el * mult);
+}
+```
