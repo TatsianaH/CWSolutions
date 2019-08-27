@@ -3404,3 +3404,14 @@ function multiplyAndFilter(arr, mult){
   return arr.filter(el => typeof el === 'number').map(el => el * mult);
 }
 ```
+*Arithmetic sequence - sum of n elements*
+https://www.codewars.com/kata/55cb0597e12e896ab6000099/train/javascript
+```javascript
+function ArithmeticSequenceSum(a, r, n) {
+ let sum = a;
+ for(let i = 2; i <= n; i++){
+   sum += a + r * (i - 1);
+ }
+ return sum;
+}
+```
