@@ -3347,4 +3347,6 @@ function numberOfPairs(gl){
   return res;
 }
 ```
-**
+*Birthday II - Presents*
+codewars.com/kata/5805f0663f1f9c49be00011f/train/javascript
+```javascript
