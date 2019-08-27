@@ -3333,3 +3333,17 @@ function tidyNumber(n){
   return true;
 }
 ```
+*Pair of gloves*
+https://www.codewars.com/kata/58235a167a8cb37e1a0000db/train/javascript
+```javascript
+function numberOfPairs(gl){
+  const obj = {};
+  for(let i = 0; i < gl.length; i++){
+    obj[gl[i]] = obj[gl[i]] ? ++obj[gl[i]] : 1;
+  }
+  let numOfPairs = 0;
+  const arr = Object.values(obj);
+  let res = arr.map(el => el % 2 === 0 ? el / 2 : (el -(el % 2)) / 2).reduce((a, b) => a + b, 0);  
+  return res;
+}
+```
