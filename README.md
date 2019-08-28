@@ -3428,6 +3428,6 @@ function cake(x, y){
       sum += alph.indexOf(y[i]) + 1;
     }
   }
-  return sum * 100 / x > 70 ? 'Fire!' : 'That was close!';
+   return x * 0.7 < sum ? 'Fire!' : 'That was close!';
 }
 ```
