@@ -3419,16 +3419,15 @@ function ArithmeticSequenceSum(a, r, n) {
 https://www.codewars.com/kata/5805ed25c2799821cb000005/train/javascript
 ```javascript
 function cake(x, y){
-console.log(x, y)
-let alph = 'abcdefghijklmnopqrstuvwxyz';
-let sum = 0;
-for(let i = 0; i < y.length; i++){
-if(i % 2 === 0){
-sum += y.charCodeAt(y[i]);
-} else {
-sum += alph.indexOf(y[i]) + 1;
-}
-}
-return Math.trunc(sum * 100 / x) > 70 ? 'Fire!' : 'That was close!';
+  let alph = 'abcdefghijklmnopqrstuvwxyz';
+  let sum = 0;
+  for(let i = 0; i < y.length; i++){
+    if(i % 2 === 0){
+      sum += y[i].charCodeAt(y[0]);
+    } else {
+      sum += alph.indexOf(y[i]) + 1;
+    }
+  }
+  return sum * 100 / x > 70 ? 'Fire!' : 'That was close!';
 }
 ```
