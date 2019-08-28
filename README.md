@@ -3415,3 +3415,6 @@ function ArithmeticSequenceSum(a, r, n) {
  return sum;
 }
 ```
+*Birthday I - Cake*
+https://www.codewars.com/kata/5805ed25c2799821cb000005/train/javascript
+```javascript
