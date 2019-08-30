@@ -3434,3 +3434,14 @@ function cake(x, y){
 *Odd Ones Out!*
 https://www.codewars.com/kata/5d376cdc9bcee7001fcb84c0/train/javascript
 ```javascript
+function oddOnesOut(nums) {
+  let arr = [];
+  for(let i = 0; i < nums.length; i++){
+    let l = nums.filter(el => el === nums[i]);
+    if(l.length % 2 === 0){
+      arr.push(nums[i]);
+    }
+  }
+  return arr;
+}
+```
