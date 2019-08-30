@@ -3459,3 +3459,12 @@ function dbSort(a){
   return arr;
 }
 ```
+*Smallest value of an array*
+https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
+```javascript
+function min(arr, toReturn) {
+  let min = Math.min(...arr);
+  if(toReturn === 'value') return min;
+  if(toReturn === 'index')return arr.indexOf(min);
+}
+```
