@@ -3451,3 +3451,11 @@ function oddOnesOut(nums) {
   return nums.filter(n => nums.filter(x => x === n).length % 2 === 0);
 }
 ```
+*Double Sort*
+https://www.codewars.com/kata/57cc79ec484cf991c900018d/train/javascript
+```javascript
+function dbSort(a){
+  let arr = a.filter(el => typeof el === 'number').sort((a, b) => a - b).concat(a.filter(el => typeof el === 'string').sort());
+  return arr;
+}
+```
