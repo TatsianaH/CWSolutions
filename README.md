@@ -3431,3 +3431,6 @@ function cake(x, y){
    return x * 0.7 < sum ? 'Fire!' : 'That was close!';
 }
 ```
+*Odd Ones Out!*
+https://www.codewars.com/kata/5d376cdc9bcee7001fcb84c0/train/javascript
+```javascript
