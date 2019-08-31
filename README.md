@@ -3500,3 +3500,6 @@ function highestRank(arr){
   return +nums[i];
 }
 ```
+*Counting Array Elements*
+https://www.codewars.com/kata/5569b10074fe4a6715000054/train/javascript
+```javascript
