@@ -3471,3 +3471,13 @@ function min(arr, toReturn) {
 *Alphabetical Sequence*
 https://www.codewars.com/kata/5bd00c99dbc73908bb00057a/train/javascript
 ```javascript
+function alphaSeq (str) {
+   let alph = '0abcdefghijklmnopqrstuvwxyz';
+   let letters = [];
+     str = str.toLowerCase().split('').sort();
+   for(let i = 0; i < str.length; i++){
+     letters.push(str[i].toUpperCase() + str[i].repeat(alph.indexOf(str[i]) - 1));
+   }
+   return letters.join(',');
+}
+```
