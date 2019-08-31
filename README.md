@@ -3468,3 +3468,6 @@ function min(arr, toReturn) {
   if(toReturn === 'index')return arr.indexOf(min);
 }
 ```
+*Alphabetical Sequence*
+https://www.codewars.com/kata/5bd00c99dbc73908bb00057a/train/javascript
+```javascript
