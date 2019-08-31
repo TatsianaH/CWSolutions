@@ -3503,3 +3503,11 @@ function highestRank(arr){
 *Counting Array Elements*
 https://www.codewars.com/kata/5569b10074fe4a6715000054/train/javascript
 ```javascript
+function count(arr){
+   const obj = {};
+   for(let i = 0; i < arr.length; i++){
+     obj[arr[i]] = obj[arr[i]] ? ++obj[arr[i]] : 1;
+   }
+   return obj;
+}
+```
