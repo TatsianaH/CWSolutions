@@ -3481,3 +3481,22 @@ function alphaSeq (str) {
    return letters.join(',');
 }
 ```
+*Highest Rank Number in an Array*
+https://www.codewars.com/kata/5420fc9bb5b2c7fd57000004/train/javascript
+```javascript
+function highestRank(arr){
+  let obj = {};
+  for(let i = 0; i < arr.length; i++){
+    if(!obj[arr[i]]){
+      obj[arr[i]] = 1;
+    } else {
+      obj[arr[i]] += 1;
+    }
+  }
+  let nums = Object.keys(obj);
+  let amount = Object.values(obj);
+  let maxA = Math.max(...amount);
+  let i = amount.lastIndexOf(maxA);
+  return +nums[i];
+}
+```
