@@ -3538,3 +3538,16 @@ function minSum(arr) {
   return res;
 }
 ```
+*Is every value in the array an array?*
+https://www.codewars.com/kata/582c81d982a0a65424000201/train/javascript
+```javascript
+const arrCheck = value =>{
+if(value.length === 0 && Array.isArray(value)) return true;
+if(Array.isArray(value)) {
+  for(let i = 0; i < value.length; i++){
+    if(!Array.isArray(value[i])) return false;
+  }
+  return true;
+}
+}
+```
