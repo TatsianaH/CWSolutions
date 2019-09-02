@@ -3514,3 +3514,15 @@ function count(arr){
 *Row Weights*
 https://www.codewars.com/kata/5abd66a5ccfd1130b30000a9/train/javascript
 ```javascript
+function rowWeights(arr){
+  let res = [0, 0];
+  for(let i = 0; i < arr.length; i++){
+    if(i % 2 === 0){
+      res[0] += arr[i];
+    } else {
+      res[1] += arr[i];
+    }
+  }
+  return res;
+}
+```
