@@ -3511,3 +3511,6 @@ function count(arr){
    return obj;
 }
 ```
+*Row Weights*
+https://www.codewars.com/kata/5abd66a5ccfd1130b30000a9/train/javascript
+```javascript
