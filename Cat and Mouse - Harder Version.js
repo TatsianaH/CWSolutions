@@ -1,4 +1,4 @@
-*Cat and Mouse - Harder Version*
+###Cat and Mouse - Harder Version
 https://www.codewars.com/kata/57ee2a1b7b45efcf700001bf/train/javascript
 
 ```javascript
@@ -29,7 +29,7 @@ function catMouse(x, j) {
   return res;
 }
 ```
-*2 case*
+###2 case
 ```javascript
 function catMouse(x, j) {
   let numC = x.indexOf('C');
