@@ -3620,3 +3620,32 @@ function catMouse(x, j) {
   return res;
 }
 ```
+*2 case*
+```javascript
+function catMouse(x, j) {
+  let numC = x.indexOf('C');
+  let numM = x.indexOf('m');
+  let numD = x.indexOf('D');
+  let res = '';
+  if (numC === -1 || numM === -1 || numD === -1)
+    return 'boring without all three';
+  if (numC > numM) {
+    if (numD < numC && numD > numM && numM > numC - j - 1) {
+      res = 'Protected!';
+    } else if (numM > numC - j - 1) {
+      res = 'Caught!';
+    } else {
+      res = 'Escaped!';
+    }
+  } else if (numC < numM) {
+    if (numD > numC && numD < numM && numM < numC + j + 1) {
+      res = 'Protected!';
+    }  else if (numM < numC + j + 1) {
+      res = 'Caught!';
+    } else {
+      res = 'Escaped!';
+    }
+  } 
+  return res;
+}
+```
