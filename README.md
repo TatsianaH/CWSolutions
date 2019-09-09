@@ -3590,7 +3590,8 @@ function myLanguages(res) {
   return Object.keys(res).filter(el => res[el] >= 60).sort((a,b) => res[b] - res[a]);
 }
 ```
-[*Cat and Mouse - Harder Version*]: (https://www.codewars.com/kata/57ee2a1b7b45efcf700001bf/train/javascript)
+[*Cat and Mouse - Harder Version*] 
+https://www.codewars.com/kata/57ee2a1b7b45efcf700001bf/train/javascript
 ```javascript
 function catMouse(x, j) {
   if (!x.includes('m') || !x.includes('C') || !x.includes('D'))
