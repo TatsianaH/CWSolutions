@@ -3649,3 +3649,30 @@ function catMouse(x, j) {
   return res;
 }
 ```
+*Is date a palindrome?*
+```javascript
+function isPalindrome(d) {
+  let res = (d.getMonth() + 1) + '' + d.getDate() + '' + d.getFullYear().toString().slice(2);
+  for (let i = 0; i < res.length / 2; i++) {
+    if (res[i] !== res[res.length - 1 - i]) {
+      return false;
+    }
+  }
+  return true;
+}
+const date = [new Date(),
+  new Date(2019, 8, 10),
+  new Date(2019, 8, 11),
+  new Date(2019, 8, 12),
+  new Date(2019, 8, 13),
+  new Date(2019, 8, 14),
+  new Date(2019, 8, 15),
+  new Date(2019, 8, 16),
+  new Date(2019, 8, 17),
+  new Date(2019, 8, 18),
+  new Date(2019, 8, 19)
+]
+for (let i = 0; i < date.length; i++) {
+  console.log(isPalindrome(date[i]));
+}
+```
