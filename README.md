@@ -3572,3 +3572,15 @@ function removeRotten(bag){
   return bag;
 }
 ```
+*My Languages*
+https://www.codewars.com/kata/5b16490986b6d336c900007d/train/javascript
+```javascript
+function myLanguages(res) {
+  const arr = [];
+  let obj = Object.entries(res).sort((a, b) => b[1] - a[1]);
+  for(let i = 0; i < obj.length; i++){
+    if(obj[i][1] >= 60) arr.push(obj[i][0]);
+  }
+  return arr;
+}
+```
