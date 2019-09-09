@@ -3591,7 +3591,7 @@ function myLanguages(res) {
 }
 ```
 [*Cat and Mouse - Harder Version*]:
-https://www.codewars.com/kata/57ee2a1b7b45efcf700001bf/train/javascript
+(https://www.codewars.com/kata/57ee2a1b7b45efcf700001bf/train/javascript)
 ```javascript
 function catMouse(x, j) {
   if (!x.includes('m') || !x.includes('C') || !x.includes('D'))
