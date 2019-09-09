@@ -3565,3 +3565,10 @@ function smallEnough(a, limit){
 *Help the Fruit Guy*
 https://www.codewars.com/kata/557af4c6169ac832300000ba/train/javascript
 ```javascript
+function removeRotten(bag){
+  if(!bag || null) return [];
+  bag = bag.map(el => el.includes('rotten') ? el.replace('rotten', '') : el)
+  .map(el => el.toLowerCase());
+  return bag;
+}
+```
