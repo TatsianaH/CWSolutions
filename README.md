@@ -5,18 +5,8 @@
 
 **
 
-*Number of People in the Bus*
-https://www.codewars.com/kata/number-of-people-in-the-bus/train/javascript
-```javascript
-var number = function(busStops) {
-  let getIn = 0;
-  let getOff = 0;
-  for (let i = 0; i < busStops.length; i++) {
-    getIn += busStops[i][0];
-    getOff += busStops[i][1];
-  }
-  return getIn - getOff;
-};
+**
+
 ```
 *Two Sum*
 https://www.codewars.com/kata/two-sum/train/javascript
