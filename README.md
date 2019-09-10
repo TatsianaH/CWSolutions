@@ -1,9 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-
-```
 *Reverse a Number*
 https://www.codewars.com/kata/reverse-a-number/train/javascript
 ```javascript
