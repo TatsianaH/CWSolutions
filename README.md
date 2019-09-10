@@ -5,11 +5,9 @@
 ```javascript
 
 ```
-*https://www.codewars.com/kata/century-from-year/train/javascript*
+**
 ```javascript
-function century(year) { 
-  return Math.ceil(year/100);
-}
+
 ```
 *https://www.codewars.com/kata/discover-the-original-price/train/javascript*
 ```javascript
