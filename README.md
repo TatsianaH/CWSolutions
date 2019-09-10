@@ -4,16 +4,8 @@
 **
 
 ```
-*Numerical Palindrome #1*
-https://www.codewars.com/kata/numerical-palindrome-number-1/train/javascript
-```javascript
-function palindrome(num) { 
-if(typeof num !== 'number' || num < 0){
-  return 'Not valid';
-  }
-  const arr = +(num.toString().split('').reverse().join(''));
-  return arr === num;
-} 
+**
+
 ```
 *Find the calculation type*
 https://www.codewars.com/kata/find-the-calculation-type/train/javascript
