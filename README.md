@@ -1,13 +1,8 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*Simple beads count*
-https://www.codewars.com/kata/simple-beads-count/train/javascript
-```javascript
-function countRedBeads(n) {
-if(n < 2) return 0;
-  return (n - 1) * 2;
- }
+**
+
 ```
 *Reverse a Number*
 https://www.codewars.com/kata/reverse-a-number/train/javascript
@@ -3071,17 +3066,14 @@ function numberOfPairs(gl){
   for(let i = 0; i < gl.length; i++){
     obj[gl[i]] = obj[gl[i]] ? ++obj[gl[i]] : 1;
   }
-  let numOfPairs = 0;
+ let numOfPairs = 0;
   const arr = Object.values(obj);
   let res = arr.map(el => el % 2 === 0 ? el / 2 : (el -(el % 2)) / 2).reduce((a, b) => a + b, 0);  
   return res;
 }
 ```
-**
 
-**
 
-```
 *Multiply array values and filter non-numeric*
 https://www.codewars.com/kata/55ed875819ae85ca8b00005c/train/javascript
 ```javascript
