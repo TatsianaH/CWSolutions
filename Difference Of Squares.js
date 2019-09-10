@@ -1,4 +1,5 @@
 //https://www.codewars.com/kata/difference-of-squares/train/javascript
+
 function differenceOfSquares(n){
   let resN = 0;
   let resOneN = 0;
