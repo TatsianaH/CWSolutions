@@ -5,17 +5,6 @@
 ```javascript
 
 ```
-**
-```javascript
-
-```
-*https://www.codewars.com/kata/discover-the-original-price/train/javascript*
-```javascript
-function discoverOriginalPrice(discountedPrice, salePercentage){
-  let res = +(discountedPrice * 100 / (100 - salePercentage)).toFixed(2);
-  return res;
-}
-```
 *Find the divisors!*
 https://www.codewars.com/kata/find-the-divisors/train/javascript
 ```javascript
