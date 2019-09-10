@@ -1,22 +1,9 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-```javascript
 
-```
-*Find the divisors!*
-https://www.codewars.com/kata/find-the-divisors/train/javascript
-```javascript
-function divisors(integer) {
-const list = [];
-  for(let i = 2; i < integer; i++){
-    if(integer % i === 0) {
-      list.push(i);
-    }  
-  }
-  return (list[0] !== undefined) ? list : integer + ' is prime';;
-};
+**
+
 ```
 *Difference of Volumes of Cuboids*
 https://www.codewars.com/kata/difference-of-volumes-of-cuboids/train/javascript
