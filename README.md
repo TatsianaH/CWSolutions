@@ -1,15 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-
-```
-**
-
-```
-**
-
-```
 *Simple beads count*
 https://www.codewars.com/kata/simple-beads-count/train/javascript
 ```javascript
@@ -3086,33 +3077,8 @@ function numberOfPairs(gl){
   return res;
 }
 ```
-*Birthday II - Presents*
-codewars.com/kata/5805f0663f1f9c49be00011f/train/javascript
-```javascript
-function present(x, y) {
-  if (x === 'empty') return 'empty';
-  if (x === 'crap') return x.split('').sort().join('');
-  if (x === 'badpresent') return 'Take this back!';
-  if (x === 'dog') return `pass out from excitement ${y} times`;
-  if (x === 'goodpresent') {
-    let str = [];
-    for (let i = 0; i < x.length; i++) {
-      str.push(x[i].charCodeAt(0) + y);
-    }
+**
 
-    let res = String.fromCharCode(...str);
-    return res;
-  }
-  if (x === 'bang') {
-    let sum = 0;
-    for (let i = 0; i < x.length; i++) {
-      sum += x[i].charCodeAt(0);
-    }
-    sum = sum - y * x.length
-    return sum;
-  }
-}
-```
 *Longest palindrome*
 https://www.codewars.com/kata/5a0178f66f793bc5b0001728/train/javascript
 ```javascript
@@ -3329,65 +3295,8 @@ function myLanguages(res) {
   return Object.keys(res).filter(el => res[el] >= 60).sort((a,b) => res[b] - res[a]);
 }
 ```
-*Cat and Mouse - Harder Version*
-https://www.codewars.com/kata/57ee2a1b7b45efcf700001bf/train/javascript
-```javascript
-function catMouse(x, j) {
-  if (!x.includes('m') || !x.includes('C') || !x.includes('D'))
-    return 'boring without all three';
-  let numC = x.indexOf('C');
-  let numM = x.indexOf('m');
-  let numD = x.indexOf('D');
-  let res = '';
-  if (numC > numM) {
-    if (numD < numC && numD > numM && numM > numC - j - 1) {
-      res = 'Protected!';
-    } else if (numM > numC - j - 1) {
-      res = 'Caught!';
-    } else {
-      res = 'Escaped!';
-    }
-  } else if (numC < numM) {
-    if (numD > numC && numD < numM && numM < numC + j + 1) {
-      res = 'Protected!';
-    }  else if (numM < numC + j + 1) {
-      res = 'Caught!';
-    } else {
-      res = 'Escaped!';
-    }
-  } 
-  return res;
-}
-```
-*2 case*
-```javascript
-function catMouse(x, j) {
-  let numC = x.indexOf('C');
-  let numM = x.indexOf('m');
-  let numD = x.indexOf('D');
-  let res = '';
-  if (numC === -1 || numM === -1 || numD === -1)
-    return 'boring without all three';
-  if (numC > numM) {
-    if (numD < numC && numD > numM && numM > numC - j - 1) {
-      res = 'Protected!';
-    } else if (numM > numC - j - 1) {
-      res = 'Caught!';
-    } else {
-      res = 'Escaped!';
-    }
-  } else if (numC < numM) {
-    if (numD > numC && numD < numM && numM < numC + j + 1) {
-      res = 'Protected!';
-    }  else if (numM < numC + j + 1) {
-      res = 'Caught!';
-    } else {
-      res = 'Escaped!';
-    }
-  } 
-  return res;
-}
-```
+  
+  
 *Is date a palindrome?*
 ```javascript
 function isPalindrome(d) {
