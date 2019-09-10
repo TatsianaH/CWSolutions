@@ -7,15 +7,8 @@
 **
 
 ```
-*Are the numbers in order?*
-https://www.codewars.com/kata/are-the-numbers-in-order/train/javascript
-```javascript
-function inAscOrder(arr) {
-    for(let i = 0; i < arr.length; i++){
-      if(arr[i] > arr[i + 1]) return false;
-    }
-    return true;
-}
+**
+
 ```
 *Array Array Array*
 https://www.codewars.com/kata/57eb936de1051801d500008a/solutions/javascript
