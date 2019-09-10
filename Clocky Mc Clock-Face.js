@@ -1,4 +1,5 @@
 //https://www.codewars.com/kata/clocky-mc-clock-face/train/javascript
+
 let whatTimeIsIt = function(angle) {
     let totalMinutes = angle * 2;
     let hours = Math.floor(totalMinutes / 60);
