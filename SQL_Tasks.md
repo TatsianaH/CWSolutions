@@ -31,3 +31,10 @@ or city  LIKE 'I%'
  or city  LIKE 'O%' 
 or city  LIKE 'U%';
 ```
+*4*
+https://www.codewars.com/kata/adults-only-sql-for-beginners-number-1/train/sql
+```SQL
+select*
+from users
+where age >= 18
+```

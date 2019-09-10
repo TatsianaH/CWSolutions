@@ -9,12 +9,7 @@ function twoSort(s) {
 return s[0].split('').join('***') ;
 }
 ```
-*https://www.codewars.com/kata/adults-only-sql-for-beginners-number-1/train/sql*
-```SQL
-select*
-from users
-where age >= 18
-```
+
 *https://www.codewars.com/kata/difference-of-squares/train/javascript*
 ```javascript
 function differenceOfSquares(n){
