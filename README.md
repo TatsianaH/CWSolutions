@@ -2,9 +2,7 @@
 ## Nice to meet you here! 
 
 
-**
 
-```
 *Difference of Volumes of Cuboids*
 https://www.codewars.com/kata/difference-of-volumes-of-cuboids/train/javascript
 ```javascript
