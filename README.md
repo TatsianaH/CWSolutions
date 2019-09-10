@@ -7,20 +7,8 @@
 **
 
 ```
-*Find the calculation type*
-https://www.codewars.com/kata/find-the-calculation-type/train/javascript
-```javascript
-function calcType(a, b, res) {
-  if(a + b === res){
-    return 'addition';
-    } else if(a - b === res){
-      return 'subtraction';
-    } else if (a * b === res){
-    return 'multiplication';
-    } else {
-      return 'division';
-    } 
-}
+**
+
 ```
 *Simple beads count*
 https://www.codewars.com/kata/simple-beads-count/train/javascript
