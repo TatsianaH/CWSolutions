@@ -3,15 +3,8 @@
 
 
 
-*Difference of Volumes of Cuboids*
-https://www.codewars.com/kata/difference-of-volumes-of-cuboids/train/javascript
-```javascript
-function findDifference(a, b) {
-  let aA = a.reduce((acc, curr) => acc * curr, 1);
-  let bB = b.reduce((acc, curr) => acc * curr, 1);
-  return Math.abs(aA - bB);
-}
-```
+**
+
 *Number of People in the Bus*
 https://www.codewars.com/kata/number-of-people-in-the-bus/train/javascript
 ```javascript
