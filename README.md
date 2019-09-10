@@ -1,15 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*https://www.codewars.com/kata/sort-and-star/train/javascript*
-
-```javascript
-function twoSort(s) {
-    s.sort();
-return s[0].split('').join('***') ;
-}
-```
-
 *https://www.codewars.com/kata/difference-of-squares/train/javascript*
 ```javascript
 function differenceOfSquares(n){
