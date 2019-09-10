@@ -6,13 +6,6 @@
 **
 
 ```
-*Vowel one*
-https://www.codewars.com/kata/vowel-one/train/javascript
-```javascript
-function vowelOne(s){  
-  return s.replace(/[0-9]/gi, '0').replace(/[aeuio]/gi, '1').replace(/\D/gi, '0');
- } 
-```
 *Print a Rectangle Using Asterisks*
 https://www.codewars.com/kata/print-a-rectangle-using-asterisks/train/javascript
 ```javascript
