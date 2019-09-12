@@ -1,10 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-
-```
-
 *Numerical Palindrome #1*
 https://www.codewars.com/kata/numerical-palindrome-number-1/train/javascript
 ```javascript
