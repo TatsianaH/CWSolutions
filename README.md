@@ -12,15 +12,8 @@
 
 ```
 
-*Get list sum recursively*
-https://www.codewars.com/kata/get-list-sum-recursively/train/javascript
-```javascript
-function sumR(x) {
-  if(x.length === 0) {
-    return 0;
-  } 
-    return  x.shift() + sumR(x);
-}
+**
+
 ```
 *Beginner Series #3 Sum of Numbers*
 https://www.codewars.com/kata/55f2b110f61eb01779000053/train/javascript
