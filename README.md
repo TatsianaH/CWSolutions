@@ -7,12 +7,8 @@
 **
 
 ```
-*Hex to Decimal*
-https://www.codewars.com/kata/hex-to-decimal/train/javascript
-```javascript
-function hexToDec(hexString){
-  return Number.parseInt(hexString, 16);
-}
+**
+
 ```
 *Sort the odd*
 https://www.codewars.com/kata/sort-the-odd/train/javascript
