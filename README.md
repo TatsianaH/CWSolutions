@@ -2,31 +2,7 @@
 ## Nice to meet you here! 
 
 **
-```
 
-**
-
-```
-**
-
-```
-*
-
-```
-**
-
-```
-
-**
-
-```
-*Maximum Triplet Sum (Array Series #7)*
-https://www.codewars.com/kata/maximum-triplet-sum-array-series-number-7/train/javascript
-```javascript
-function maxTriSum(numbers){
-  return numbers.filter((el, i )=> i === numbers.lastIndexOf(el))
-  .sort((a, b) => a - b).slice(-3).reduce((a, b) => a + b, 0);
-}
 ```
 
 *Two to One*
