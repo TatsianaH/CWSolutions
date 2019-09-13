@@ -1,13 +1,7 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
 
-```
-
-**
-
-```
 *Alphabet symmetry*
 https://www.codewars.com/kata/alphabet-symmetry/train/javascript
 ```javascript
