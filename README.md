@@ -10,13 +10,8 @@
 **
 
 ```
-*Sort the odd*
-https://www.codewars.com/kata/sort-the-odd/train/javascript
-```javascript
-function sortArray(arr) {
-  const arrOdd = arr.filter(el => el % 2).sort((a,b) => a - b);
-  return arr.map(el => el % 2 ? arrOdd.shift() : el);
-}
+*
+
 ```
 *Create Four Letter Birding Codes from Bird Names*
 https://www.codewars.com/kata/create-four-letter-birding-codes-from-bird-names/train/javascript
