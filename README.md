@@ -10,12 +10,8 @@
 **
 
 ```
-*Disemvowel Trolls*
-https://www.codewars.com/kata/disemvowel-trolls/train/javascript
-```javascript 
-function disemvowel(str) {
-  return str.replace(/[aeiuo]/gi, '');
-}
+**
+
 ```
 
 *Convert string to camel case*
