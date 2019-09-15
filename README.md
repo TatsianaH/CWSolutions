@@ -7,13 +7,8 @@
 
 ```
 
-*String Reordering*
-https://www.codewars.com/kata/string-reordering/train/javascript
-```javascript
-function sentence(List) {
-  let arr = List.sort((a, b) => Object.keys(a)[0] - Object.keys(b)[0]);
-  return arr.map(el => Object.values(el)[0]).join(' ');
-}
+**
+
 ```
 *Disemvowel Trolls*
 https://www.codewars.com/kata/disemvowel-trolls/train/javascript
