@@ -18,3 +18,13 @@
       }
     return sum - max - min;
   }
+
+
+  //2 case
+
+  function sumArray(arr) {
+    if(!arr || !arr.length || arr.length <= 1){
+      return 0;
+    }
+    return arr.sort((a, b) => a - b).slice(1, arr.length -1).reduce((a, b) => a + b, 0);
+  }

@@ -5,17 +5,30 @@
 **
 
 ```  
-**
-
-```
-*2 version*
+*Sum without highest and lowest number*
+https://www.codewars.com/kata/sum-without-highest-and-lowest-number/train/javascript
 ```javascript
 function sumArray(arr) {
   if(!arr || !arr.length || arr.length <= 1){
     return 0;
   }
-  return arr.sort((a, b) => a - b).slice(1, arr.length -1).reduce((a, b) => a + b, 0);
+  let max = arr[0];
+  let min = arr[0];
+  let sum = 0;
+    for(let i = 0; i < arr.length; i++){
+      sum += arr[i];
+      if(max < arr[i]) {
+        max = arr[i];
+     }
+      if(min > arr[i]) {
+        min = arr[i];
+      }
+    }
+  return sum - max - min;
 }
+```
+*2 version*
+```
 ```
 *Proof Read*
 https://www.codewars.com/kata/583710f6b468c07ba1000017/train/javascript
