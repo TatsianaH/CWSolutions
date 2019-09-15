@@ -2,13 +2,8 @@
 ## Nice to meet you here! 
 
 
-*Alphabet symmetry*
-https://www.codewars.com/kata/alphabet-symmetry/train/javascript
-```javascript
-function solve(arr){  
-  let str = 'abcdefghijklmnopqrstuvwxyz';
-  return arr.map(el => el.toLowerCase().split('').filter((e, i) => i === str.indexOf(e)).length);
-}
+**
+
 ```  
 *Sum without highest and lowest number*
 https://www.codewars.com/kata/sum-without-highest-and-lowest-number/train/javascript
