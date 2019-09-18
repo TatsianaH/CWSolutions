@@ -2,34 +2,6 @@
 ## Nice to meet you here! 
 
 
-**
-**
-
-```
-
-**
-
-```
-**
-
-```
-
-**
-
-```
-***
-**
-
-```
-
-**
-
-```
-**
-```
-**
-
-```
 *Bumps in the Road*
 https://www.codewars.com/kata/bumps-in-the-road/train/javascript
 ```javascript
