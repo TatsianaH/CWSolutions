@@ -27,12 +27,8 @@
 ```
 **
 ```
-*Dubstep*
-https://www.codewars.com/kata/dubstep/train/javascript
-```javascript
-function songDecoder(song){  
-  return song.replace(/WUB/g, ' ').replace(/\s+/g, ' ').trim();
-}
+**
+
 ```
 *Bumps in the Road*
 https://www.codewars.com/kata/bumps-in-the-road/train/javascript
