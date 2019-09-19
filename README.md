@@ -2,18 +2,8 @@
 ## Nice to meet you here! 
 
 
-*Bumps in the Road*
-https://www.codewars.com/kata/bumps-in-the-road/train/javascript
-```javascript
-function bump(x){
-  if(!x.match(/n/)) {
-    return 'Woohoo!';
-    }
-  if(x.match(/n/g).length > 15 ){
-    return 'Car Dead';
-  }
-    return 'Woohoo!';
-  }
+**
+
 ```
 *Simple validation of a username with regex*
 https://www.codewars.com/kata/simple-validation-of-a-username-with-regex/train/javascript
