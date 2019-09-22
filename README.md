@@ -1,34 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-
-**
-
-```
-*Simple validation of a username with regex*
-https://www.codewars.com/kata/simple-validation-of-a-username-with-regex/train/javascript
-```javascript
-
-```
-*2 version*    
-```javascript
-
-```
-*3 version*
-```javascript
-
-```
-**
-```
-
-**
-
-```
-**
-
-```javascript
-
-```
 *Numbers in strings*
 
 ```javascript
