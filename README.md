@@ -1,13 +1,9 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*Numbers in strings*
+**
 
 ```javascript
-function solve(s){
-  let str = s.match(/\d+/g).sort((a, b) => a - b);
-    return +str[str.length - 1];
-}
 ```
 *Get the Middle Character*
 https://www.codewars.com/kata/56747fd5cb988479af000028/train/javascript
