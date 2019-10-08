@@ -6,47 +6,10 @@
 
 ```
 *Validate Credit Card Number*
-https://www.codewars.com/kata/5418a1dd6d8216e18a0012b2/train/javascript
-```javascript
-function validate(n) {
-  let card = n.toString().split('').map(el => +el);
-  if (card.length % 2 === 0) {
-    for (let i = 0; i < card.length; i = i + 2) {
-      card[i] = card[i] * 2;
-      if (card[i] > 9) {
-        card[i] = card[i] - 9;
-      }
-    }
-  }
-  if (card.length % 2 === 1) {
-    for (let i = 1; i < card.length; i = i + 2) {
-      card[i] = card[i] * 2;
-      if (card[i] > 9) {
-        card[i] = card[i] - 9;
-      }
-    }
-  }
-  let res = card.reduce((a, b) => a + b, 0);
-  return res % 10 === 0;
-}
+
 ```
-*Mexican Wave*
-https://www.codewars.com/kata/58f5c63f1e26ecda7e000029/train/javascript
-```javascript
-function wave(n){
-  if(n === ''){
-    return [];
-  }
-  const arr = [];
-  const arr2 = n.toLowerCase().split('');
-  for(let i = 0; i < arr2.length; i++){
-    if(arr2[i] === ' ') continue;
-      arr2[i] = arr2[i].toUpperCase();
-      arr.push(arr2.join(''));
-      arr2[i]= arr2[i].toLowerCase();
-    }
-  return arr;
-}
+**
+
 ```
 *Job Matching #1*
 https://www.codewars.com/kata/56c22c5ae8b139416c00175d/train/javascript
