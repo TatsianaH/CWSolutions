@@ -25,16 +25,7 @@ h
 **
 
 ```
-*Reverse words*
-https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/train/javascript
-```javascript
-function reverseWords(str) {
-  const arr = str.split(' ');
-  for(let i = 0; i < arr.length; i++){
-    arr[i] = arr[i].split('').reverse().join('');
-  }
-  return arr.join(' ');
-}
+**
 ```
 *Convert the score*
 https://www.codewars.com/kata/5b6c220fa0a661fbf200005d/train/javascript
