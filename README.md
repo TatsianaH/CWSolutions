@@ -41,18 +41,8 @@ h
 **
 
 ```
-*FIXME: Get Full Name*
-https://www.codewars.com/kata/597c684822bc9388f600010f/train/javascript
-```javascript
-class Dinglemouse{
-  constructor( firstName, lastName ){
-    this.firstName =firstName;
-    this.lastName =lastName;
-  }
-  getFullName(){
-    return `${this.firstName} ${this.lastName}`.trim();
-  } 
-}
+**
+
 ```
 *Coding Meetup #3 - Higher-Order Functions Series - Is Ruby coming?*
 https://www.codewars.com/kata/5827acd5f524dd029d0005a4/train/javascript
