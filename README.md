@@ -33,17 +33,7 @@ h
 **
 
 ```
-*Coding Meetup #4 - Higher-Order Functions Series - Find the first Python developer*
-https://www.codewars.com/kata/5827bc50f524dd029d0005f2/train/javascript
-```javascript
-function getFirstPython(list) {
-  for(let i = 0; i < list.length; i++){
-    if(list[i].language === 'Python'){
-      return list[i].firstName + ', ' + list[i].country;
-    }      
-  }
-  return 'There will be no Python developers';
-}
+**
 ```
 *Sums of Parts*
 https://www.codewars.com/kata/5ce399e0047a45001c853c2b/train/javascript
