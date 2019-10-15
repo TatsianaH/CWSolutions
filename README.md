@@ -1,12 +1,8 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*Coding Meetup #3 - Higher-Order Functions Series - Is Ruby coming?*
-https://www.codewars.com/kata/5827acd5f524dd029d0005a4/train/javascript
-```javascript
-function isRubyComing(list) {
-  return list.find(el => el.language === 'Ruby') ? true : false;
-}
+**
+
 ```
 *Highest Scoring Word*
 https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/javascript
