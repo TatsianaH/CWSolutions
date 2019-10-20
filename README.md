@@ -9,13 +9,8 @@
 **
 
 ```
-*Credit Card Mask*
-https://www.codewars.com/kata/credit-card-mask/train/javascript
-```javascript
-function maskify(cc) {
-  if(cc.length <= 4) return cc;
-  return cc.slice(0, cc.length - 4).replace(/\w/g, '#') + cc.slice(-4);
-}
+**
+
 ```
 *https://www.codewars.com/kata/5626b561280a42ecc50000d1/train/javascript*
 Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!
