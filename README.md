@@ -1,37 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-
-```
-**
-```
-**
-
-```
-**
-
-```
-*
-```
-**
-
-```
-**
-
-```
-**
-```
-*Complementary DNA*
-```
-**
-```
-**
-
-```
-**
-
-```
 *Binary Addition*
 https://www.codewars.com/kata/551f37452ff852b7bd000139/train/javascript
 ```javascript
