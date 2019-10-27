@@ -20,26 +20,9 @@
 **
 
 ```
-*Coding Meetup #11 - Higher-Order Functions Series - Find the average age*
-https://www.codewars.com/kata/582ba36cc1901399a70005fc/train/javascript
-```javascript
-function getAverageAge(list) {
-  let aver = list.map(el => el.age).reduce((acc, curr) => acc + curr, 0) / list.length;
-  return Math.round(aver);
-}
+**
 ```
 *Complementary DNA*
-https://www.codewars.com/kata/complementary-dna/train/javascript
-```javascript
-function DNAStrand(dna){
-   let obj = {
-     'A': 'T',
-     'T': 'A',
-     'C': 'G',
-     'G': 'C'
-   };
-   return dna.split('').map(el => obj[el]).join('');
-}
 ```
 *You're a square!*
 https://www.codewars.com/kata/54c27a33fb7da0db0100040e/train/javascript
