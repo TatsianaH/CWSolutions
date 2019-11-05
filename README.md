@@ -10,12 +10,7 @@
 ```
 **
 ```
-*Reversing Words in a String*
-https://www.codewars.com/kata/57a55c8b72292d057b000594/train/javascript
-```javascript
-function reverse(str){
-  return str.split(' ').reverse().join(' ');  
-}
+**
 ```
 *Sum of the first nth term of Series*
 https://www.codewars.com/kata/555eded1ad94b00403000071/train/javascript
