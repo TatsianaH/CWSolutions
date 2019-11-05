@@ -4,17 +4,7 @@
 **
 
 ```
-*Printer Errors*
-https://www.codewars.com/kata/56541980fa08ab47a0000040/train/javascript
-```javascript
-function printerError(s) {
-  let count = 0;
-  let alph = 'nopqrstuvwxyz';
-  for(let i = 0; i < s.length; i++){
-    if(alph.includes(s[i])) count++;
-  }
-  return `${count}/${s.length}`;
-}
+**
 ```
 *Does my number look big in this?*
 https://www.codewars.com/kata/5287e858c6b5a9678200083c/train/javascript
