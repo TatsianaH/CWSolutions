@@ -8,22 +8,7 @@
 ```
 **
 ```
-*String incrementer*
-https://www.codewars.com/kata/54a91a4883a7de5d7800009c/train/javascript
-```javascript
-function incrementString (str) {
-let res;
-  let index = str.search(/[0-9]/);
-  if(index === -1){
-    return str + '1';
-    }
-  let num = +(str.slice(index, str.length)) + 1;
-      res = str.slice(0, index) + num;
-  if(res.length < str.length){
-    res = str.slice(0, index) + '0'.repeat(str.length - res.length) + num;
-  }
-  return res;
-}
+**
 ```
 *Reversing Words in a String*
 https://www.codewars.com/kata/57a55c8b72292d057b000594/train/javascript
