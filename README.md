@@ -1,12 +1,8 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*Binary Addition*
-https://www.codewars.com/kata/551f37452ff852b7bd000139/train/javascript
-```javascript
-function addBinary(a,b) {
-  return (a + b).toString(2).toString();
-}
+**
+
 ```
 *Printer Errors*
 https://www.codewars.com/kata/56541980fa08ab47a0000040/train/javascript
