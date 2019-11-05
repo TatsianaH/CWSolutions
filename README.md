@@ -6,14 +6,7 @@
 ```
 **
 ```
-*Does my number look big in this?*
-https://www.codewars.com/kata/5287e858c6b5a9678200083c/train/javascript
-```javascript
-function narcissistic(value) {
-  const arr = value.toString().split('').map(el => +el);
-  let res = arr.map(el => Math.pow(el, arr.length)).reduce((acc, curr) => acc + curr, 0);
-  return res === value;
-}
+**
 ```
 *String incrementer*
 https://www.codewars.com/kata/54a91a4883a7de5d7800009c/train/javascript
