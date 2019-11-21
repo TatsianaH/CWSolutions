@@ -1,0 +1,7 @@
+//https://www.codewars.com/kata/57e92e91b63b6cbac20001e5/train/javascript
+
+function dutyFree(normPrice, discount, hol){
+    let saveMoney = normPrice * discount / 100;
+    let bottles = hol / saveMoney;
+    return Math.floor(bottles);
+}
