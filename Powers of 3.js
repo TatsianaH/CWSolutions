@@ -7,3 +7,9 @@ function largestPower(n){
     }
     return arr[arr.length - 1];
 }
+
+// 2 case
+
+function largestPower(n){
+    return Math.ceil(Math.log10(n)/Math.log10(3)) - 1;
+}
