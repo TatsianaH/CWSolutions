@@ -2,7 +2,5 @@
 
 function howMuchILoveYou(n) {
     const arr = ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
-    for(let i = 1; i <= n; i++){
-        if(n === i || n % (i + 6) === 0) return arr[i - 1];
-    }
+    return n % 6 ? arr[(n % 6) - 1] : arr[5];
 }
