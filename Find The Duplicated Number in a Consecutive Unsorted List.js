@@ -4,3 +4,10 @@ function findDup( arr ){
     let duplicateValue = arr.filter((el, i) => i === arr.indexOf(el) && i !== arr.lastIndexOf(el));
     return +duplicateValue;
 }
+
+// 2 case
+
+function findDup( arr ){
+    let duplicateValue = arr.find((el, i) => i === arr.indexOf(el) && i !== arr.lastIndexOf(el));
+    return duplicateValue;
+}
