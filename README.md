@@ -1,13 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-
-**
-
-```javascript
-
-```
 *Don't give me five!*
 https://www.codewars.com/kata/5813d19765d81c592200001a/train/javascript
 ```javascript
