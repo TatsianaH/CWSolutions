@@ -1,0 +1,10 @@
+// https://www.codewars.com/kata/count-strings-in-objects/train/javascript
+
+function strCount(obj){
+    let count = 0;
+    for (key in obj) {
+        if (typeof obj[key] === 'string') count++;
+        if (typeof obj[key] === 'object') count += strCount(obj[key]);
+    }
+    return count;
+}
