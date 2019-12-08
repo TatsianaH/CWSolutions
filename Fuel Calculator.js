@@ -9,3 +9,14 @@ function fuelPrice(l, p) {
     if(l >= 10) cost = l * (p - 0.25);
     return +cost.toFixed(2);
 }
+
+// 2 case
+
+function fuelPrice(l, p) {
+    for(let i = 2; i <= 10; i += 2){
+        if(i <= l){
+            p -= 0.05;
+        }
+    }
+    return +(l * p).toFixed(2);
+}
