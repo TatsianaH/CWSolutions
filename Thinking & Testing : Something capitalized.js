@@ -16,3 +16,19 @@ function testit(s) {
     }
     return s.join(' ');
 }
+
+
+// 2 case
+
+function testit(s){
+    if(s === '') return s;
+    if(s.length === 1) return s.toUpperCase();
+    let str = '';
+    for(let i = 0; i < s.length; i++){
+        if (i === s.length - 1) str += s[i].toUpperCase();
+        else if(s[i] !== ' ' && s[i + 1] === ' ') str += s[i].toUpperCase();
+        else if(s[i] !== ' ' && s[i + 1] !== ' ') str += s[i];
+        else if(s[i] === ' ') str += s[i];
+    }
+    return str;
+}
