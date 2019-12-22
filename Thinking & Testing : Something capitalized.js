@@ -32,3 +32,16 @@ function testit(s){
     }
     return str;
 }
+
+// 3 case
+
+function testit(s){
+    let res = '';
+    for (let i = 0; i < s.length; i++) {
+        if (s[i + 1] === ' ' || i === s.length - 1) {
+            res += s[i].toUpperCase();
+        } else {
+            res += s[i];
+        }
+    } return res;
+}
