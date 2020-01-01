@@ -13,20 +13,8 @@
 **
 
 ```
-*altERnaTIng cAsE <=> ALTerNAtiNG CaSe*
-https://www.codewars.com/kata/56efc695740d30f963000557/train/javascript
-```javascript
-String.prototype.toAlternatingCase = function () {
-  let alternatedCase = '';
-  for(let i = 0; i < this.length; i++){
-    if(this[i] === this[i].toLowerCase()){
-      alternatedCase += this[i].toUpperCase();
-    } else {
-    alternatedCase += this[i].toLowerCase();
-    }
-  }
-  return alternatedCase;
-}
+**
+
 ```
 *Replace With Alphabet Position*
 https://www.codewars.com/kata/546f922b54af40e1e90001da/train/javascript
