@@ -22,13 +22,8 @@
 **
 
 ```
-*Find the stray number*
-https://www.codewars.com/kata/find-the-stray-number/train/javascript
-```javascript
-function stray(num) {
-  let res = +num.filter((el, i) => i === num.indexOf(el) && i === num.lastIndexOf(el)).join('')
-  return res;
-}
+**
+
 ```
 *Meeting*
 https://www.codewars.com/kata/59df2f8f08c6cec835000012/train/javascript
