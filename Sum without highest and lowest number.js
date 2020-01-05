@@ -28,3 +28,10 @@
     }
     return arr.sort((a, b) => a - b).slice(1, arr.length -1).reduce((a, b) => a + b, 0);
   }
+  // 3 case
+function sumArray(arr) {
+  if(!arr || arr.length === 0 || arr.length === 1) return 0;
+  let min = Math.min(...arr);
+  let max = Math.max(...arr);
+  return arr.reduce((a, b) => a + b, 0) - min - max;
+}
