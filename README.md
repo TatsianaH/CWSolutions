@@ -27,21 +27,7 @@
 ```
 **
 ```
-*Valid Parentheses*
-https://www.codewars.com/kata/52774a314c2333f0a7000688/solutions/javascript
-```javascript
-function validParentheses(parens){
-  if(parens === '') return true;
-  let res = false;
-  if(!parens.includes('(') || !parens.includes(')')){
-    return res;
-  } else if(parens.match(/\(/g).length === parens.match(/\)/g).length) {
-    if(parens.indexOf('(') < parens.indexOf(')') && parens.lastIndexOf('(') < parens.lastIndexOf(')')){ 
-      res =  true;
-    }
-  } 
-  return res;
-}
+**
 ```
 *Reverse Vowels In A String*
 https://www.codewars.com/kata/585db3e8eec141ce9a00008f/train/javascript
