@@ -10,3 +10,16 @@ function expressionMatter(a, b, c) {
     arr[5] = a + b + c;
     return Math.max(...arr);
 }
+
+// 2 case
+
+function expressionMatter(a, b, c) {
+    return Math.max(
+        a + b + c,
+        a * b * c,
+        a * (b + c),
+        (a + b) * c,
+        a + b * c,
+        a * b + c,
+    );
+}
