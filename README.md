@@ -2,13 +2,8 @@
 ## Nice to meet you here! 
 
 
-*Filter Coffee*
-https://www.codewars.com/kata/56069d0c4af7f633910000d3/train/javascript
-```javascript
-function search(budget, prices) {
-  let res  = prices.filter(item => item <= budget).sort((a, b) => a - b);
-  return res.join (',');
-}
+**
+
 ```
 *Numerical Palindrome #5*
 https://www.codewars.com/kata/numerical-palindrome-number-5-1/train/javascript
