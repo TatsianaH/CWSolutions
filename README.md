@@ -1,50 +1,8 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
 ```
 **
-```
-**
-
-```
-**
-
-**
-
-```
-**
-
-```
-**
-
-```
-**
-
-```
-**
-
-```
-**
-```
-**
-```
-**
-```
-*CamelCase Method*
-https://www.codewars.com/kata/camelcase-method/train/javascript
-```javascript
-String.prototype.camelCase=function(){
-  if(this.length === 0) {
-    return '';
-  } else {
-  const arr = this.trim().split(' ');
-  for(let i = 0; i < arr.length; i++){
-    arr[i] = arr[i][0].toUpperCase() + arr[i].slice(1, arr[i].length);
-  }
-   return arr.join('');
-  }
-}
 ```
 *Count the Digit*
 https://www.codewars.com/kata/566fc12495810954b1000030/train/javascript
