@@ -5,16 +5,8 @@
 **
 
 ```
-*Two Joggers*
-https://www.codewars.com/kata/two-joggers/train/javascript
-```javascript
-var nbrOfLaps = function(x, y) {
-  var lcm = x;
-  while(lcm % y != 0) {
-    lcm += x;
-  }
-  return [lcm / x, lcm / y];
-}
+**
+
 ```
 *Equal Sides Of An Array*
 https://www.codewars.com/kata/equal-sides-of-an-array/train/javascript
