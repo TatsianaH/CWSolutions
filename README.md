@@ -7,16 +7,7 @@
 ```
 **
 ```
-*Consecutive strings*
-https://www.codewars.com/kata/56a5d994ac971f1ac500003e/train/javascript
-```javascript
-function longestConsec(str, k) {
-  if (k > str.length || str.length === 0 || k <= 0) return '';
-  return str.reduce((max, item, i) => {
-  const addWords = str.slice(i, i + k).join('');
-  return addWords.length > max.length ? addWords : max;
-  }, '');
-}
+**
 ```
 *Word a10n (abbreviation)*
 https://www.codewars.com/kata/5375f921003bf62192000746/train/javascript
