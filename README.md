@@ -20,15 +20,7 @@
 ```
 *
 
-  var max = function(list){
-  let numMax = list[0];
-  for(let i = 0; i < list.length; i++){
-    if(numMax < list[i]){
-     numMax = list[i];
-    }
-  }
-    return numMax;
-}
+  
 ```
 *Reverse every other word in the string*
 https://www.codewars.com/kata/58d76854024c72c3e20000de/train/javascript

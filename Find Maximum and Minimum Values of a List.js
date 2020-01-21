@@ -9,3 +9,12 @@ for(let i = 0; i < list.length; i++){
 }
   return numMin;
 }
+var max = function(list){
+  let numMax = list[0];
+  for(let i = 0; i < list.length; i++){
+    if(numMax < list[i]){
+     numMax = list[i];
+    }
+  }
+    return numMax;
+}
