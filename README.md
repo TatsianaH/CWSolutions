@@ -1,13 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*Beginner Series #2 Clock*
-https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/train/javascript
-```javascript
-function past(h, m, s){
- return 1000 * (s + 60 * (m + h * 60));
-}
-```
 *Beginner Series #4 Cockroach*
 https://www.codewars.com/kata/55fab1ffda3e2e44f00000c6/train/javascript
 ```javascript
