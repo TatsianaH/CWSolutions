@@ -1,12 +1,8 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*Beginner Series #4 Cockroach*
-https://www.codewars.com/kata/55fab1ffda3e2e44f00000c6/train/javascript
-```javascript
-function cockroachSpeed(s) {
-  return Math.floor((s * 1000 * 100 )/ (60 * 60));
-}
+**
+
 ```
 *For Twins: 1. Types*
 https://www.codewars.com/kata/for-twins-1-types/train/javascript
