@@ -5,3 +5,10 @@ function minimum(a, x) {
         if((a + i) % x === 0 || (a - i) % x === 0) return i;
     }
 }
+
+
+
+
+// 2 case
+
+const minimum = (a, x) => Math.min(x - a % x, a % x)
