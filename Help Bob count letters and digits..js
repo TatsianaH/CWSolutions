@@ -7,3 +7,11 @@ function countLettersAndDigits(input) {
     }
     return count;
 }
+
+
+// 2 case
+
+function countLettersAndDigits(inp) {
+    let res = inp.match(/[a-zA-Z0-9]/g);
+    return res !== null ? res.length : 0;
+}
