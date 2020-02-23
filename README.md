@@ -1,27 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-
-```
-*For Twins: 1. Types*
-https://www.codewars.com/kata/for-twins-1-types/train/javascript
-```javascript
-function typeValidation(variable, type) {
-  if(typeof variable === type){
-    return true;
-  } else {
-    return false;
-  }
-}
-```
-*isReallyNaN*
-https://www.codewars.com/kata/isreallynan/train/javascript
-```javascript
-const isReallyNaN = (val) => {
-  return Number.isNaN(val);  
-}
-```
 *Rock Paper Scissors!*
 https://www.codewars.com/kata/5672a98bdbdd995fad00000f/train/javascript
 ```javascript
