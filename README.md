@@ -5,33 +5,9 @@
 ```
 **
 ```
-*Clean up after your dog*
-https://www.codewars.com/kata/57faa6ff9610ce181b000028/train/javascript
-```javascript
-function crap(x, bags, cap){
-  let total = bags * cap;
-  let str = x.toString();
-  if(str.includes('D')) return 'Dog!!';
-    const a = str.split('@').length - 1;
-    if(a <= total) 
-    return  'Clean';
-      return 'Cr@p';
-}
+**
 ```      
-*Sum of differences in array*
-https://www.codewars.com/kata/5b73fe9fb3d9776fbf00009e/train/javascript
-```javascript
-function sumOfDifferences(arr) {
-  let res = 0;
-  if(arr.length === 1 || arr.length === 0){
-    return 0;
-  }
-  arr.sort((a, b) => b - a);
-  for(let i = 0; i < arr.length - 1; i++){
-    res += (arr[i] - arr[i + 1]);
-  }
-  return res;
-}
+**
 ```
 *For Twins: 2. Math operations*
 https://www.codewars.com/kata/for-twins-2-math-operations/train/javascript
