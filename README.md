@@ -35,18 +35,9 @@
 
 ```javascript
 ```
-*Understanding closures - the basics*
-https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript
+**
 ```javascript
-function buildFun(n){
-	let res = [];
-	for (let i = 0; i< n; i++){
-		res.push(function(){
-			return i;
-		});
-	}
-	return res;
-}
+
 ```
 *Javascript Mathematician*
 https://www.codewars.com/kata/javascript-mathematician/train/javascript
