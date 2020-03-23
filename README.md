@@ -1,44 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-```
-**
-```
-**
-```      
-**
-```
-**
-```
-**      
-
-```
-**
-```
-*)*
-
-```
-**
-
-```
-**
-```javascript
-
-```
-**
-```
-
-**
-```
-*Ordered Count of Characters*
-
-```javascript
-```
-**
-```javascript
-
-```
 *Javascript Mathematician*
 https://www.codewars.com/kata/javascript-mathematician/train/javascript
 ```javascript
