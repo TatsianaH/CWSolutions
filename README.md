@@ -2,13 +2,7 @@
 ## Nice to meet you here! 
 
 *Javascript Mathematician*
-https://www.codewars.com/kata/javascript-mathematician/train/javascript
-```javascript
-function calculate(...a) {
-  return function sum(...b){
-    return [].concat(a, b).reduce((acc, curr) => acc + curr, 0);
-  }
-}
+
 ```
 
 *Simple Fun #352: Reagent Formula*
