@@ -7,3 +7,13 @@ function absentVowel(x){
     if(!x.includes('o')) return 3;
     if(!x.includes('u')) return 4;
 }
+
+// 2nd case
+
+function absentVowel(x){
+    x = x.toLowerCase();
+    const vowels = 'aeiou';
+    for(let i = 0; i < vowels.length; i++){
+        if(x.indexOf(vowels[i]) == -1) return i;
+    }
+}
