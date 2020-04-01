@@ -9,3 +9,4 @@ function cyclops(n) {
         else return false;
     }
 }
+//
