@@ -17,3 +17,9 @@ function pillow(s){
     }
     return false;
 }
+
+// 2 case
+
+function pillow([s0, s1]){
+    return [...s0].some((n, i) => n === 'n' && s1[i] === 'B');
+}
