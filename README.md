@@ -20,33 +20,8 @@ function positiveSum(arr) {
   return arr.reduce((acc, curr) => {return (curr > 0) ? (acc + curr) : (acc + 0)},0);
 }
 ```
-*Who's Online?*
-https://www.codewars.com/kata/whos-online/train/javascript
-```javascript
-const whosOnline = (friends) => {
-  const obj = {};
-  if(friends.length === 0) {
-    return obj;
-  }
-  let arrOnline = [];
-  let arrOffline= [];
-  let arrAway = [];
-  for(let i = 0; i < friends.length; i++){
-    if(friends[i].status === 'online' && friends[i].lastActivity <= 10){
-      arrOnline.push(friends[i].username);
-      obj.online = arrOnline;
-    }
-    if(friends[i].status === 'offline'){
-      arrOffline.push(friends[i].username);
-      obj.offline = arrOffline;
-    }
-    if(friends[i].status === 'online' && friends[i].lastActivity > 10){
-      arrAway.push(friends[i].username);
-      obj.away = arrAway;
-    }
-  }
-  return obj;
-}
+**
+
 ```
 *Round to the next multiple of 5*
 https://www.codewars.com/kata/55d1d6d5955ec6365400006d/train/javascript
