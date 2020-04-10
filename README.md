@@ -13,7 +13,7 @@
 **
 
 ```
-*Sum of positive*
+**
 https://www.codewars.com/kata/5715eaedb436cf5606000381/train/javascript
 ```javascript
 function positiveSum(arr) {
@@ -26,12 +26,8 @@ function positiveSum(arr) {
 **
 
 ```
-*get ascii value of character*
-https://www.codewars.com/kata/55acfc59c3c23d230f00006d/train/javascript
-```javascript
-function getASCII(c){
-  return c.charCodeAt();
-}
+**
+
 ```
 *Coding Meetup #2 - Higher-Order Functions Series - Greet developers*
 https://www.codewars.com/kata/58279e13c983ca4a2a00002a/train/javascript
