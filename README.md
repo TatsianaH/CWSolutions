@@ -1,33 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*Javascript Mathematician*
-
-```
-
-**
-```
-**
-
-```
-**
-
-```
-**
-https://www.codewars.com/kata/5715eaedb436cf5606000381/train/javascript
-```javascript
-function positiveSum(arr) {
-  return arr.reduce((acc, curr) => {return (curr > 0) ? (acc + curr) : (acc + 0)},0);
-}
-```
-**
-
-```
-**
-
-```
-**
-
 ```
 *Coding Meetup #2 - Higher-Order Functions Series - Greet developers*
 https://www.codewars.com/kata/58279e13c983ca4a2a00002a/train/javascript
