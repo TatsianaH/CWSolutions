@@ -12,11 +12,7 @@ function greetDevelopers(list) {
 }
 ```
 *Maximum Multiple*
-https://www.codewars.com/kata/5aba780a6a176b029800041c/train/javascript  
-```javascript
-function maxMultiple(divisor, bound){
-  return Math.trunc(bound/ divisor) * divisor; 
-}
+
 ```
 *Backspaces in string*
 https://www.codewars.com/kata/backspaces-in-string/train/javascript
