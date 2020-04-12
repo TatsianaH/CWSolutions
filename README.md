@@ -9,39 +9,11 @@
 *Backspaces in string*
 https://www.codewars.com/kata/backspaces-in-string/train/javascript
 ```javascript
-function clean_string(str) {
-  var strArr = str.split('');
-  if(strArr === [] || strArr.indexOf('#') === -1) {
-    return strArr.join('');
-  } else {
-    for(let i = 0; i < strArr.length; i++) {
-      if(strArr[i] === '#') {
-        if(strArr[i-1] === undefined) {
-          strArr.splice(i,1);
-          return clean_string(strArr.join(''));
-        } else {
-          strArr.splice(i-1,2);
-          return clean_string(strArr.join(''));
-        }
-      }
-    }  
-  }
-} 
+
 ```
 *2 version*
 ```javascript
-function clean_string(s) {
-  const result = [];
-  for (let letter of s) {
-    if (letter === '#') {
-      result.pop();
-    } else {
-      result.push(letter);
-    }
-  }
-  return result.join('');
-}
-```
+
 *Fifa 17 Launch*
 https://www.codewars.com/kata/fifa-17-launch/train/javascript
 ```javascript
