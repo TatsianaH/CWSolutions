@@ -1,22 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-```
-**
-
-```
-
-*Backspaces in string*
-https://www.codewars.com/kata/backspaces-in-string/train/javascript
-```javascript
-
-```
-*2 version*
-```javascript
-
-**
-
-```
 *Sum of Array Averages*
 https://www.codewars.com/kata/sum-of-array-averages/train/javascript
 ```javascript
