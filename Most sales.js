@@ -1,12 +1,11 @@
 // https://www.codewars.com/kata/5e16ffb7297fe00001114824/train/javascript
 
 function top3(prod, a, pr) {
-    let obj = {};
+    let arr = [];
     for(let i = 0; i < prod.length; i++){
-        obj[prod[i]] = a[i] * pr[i]
+        arr.push({prod: prod[i], sum: a[i] * pr[i]});
     }
-    const arr = Object.entries(obj)
-        .sort((a, b, i) => b[1] - a[1])
-        .map((el, i) => el[0]);
-    return arr.slice(0, 3);
+    const res = arr.sort((a, b) => b.sum - a.sum || prod.indexOf(a.prod) - prod.indexOf(b.prod))
+        .map(el => el.prod);
+    return res.slice(0, 3);
 }
