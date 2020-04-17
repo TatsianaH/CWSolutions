@@ -9,3 +9,13 @@ const sumAverage = (arr) => {
   }
   return Math.floor(result);
 }
+
+// 2 case
+
+const sumAverage = (arr) => {
+  let result = Math.floor(arr
+      .map(el => el
+          .reduce((a, b)=> a + b, 0) / el.length)
+      .reduce((a, b)=> a + b, 0));
+  return result;
+}
