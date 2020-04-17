@@ -4,3 +4,9 @@ function maxNumber(n){
     const arr = String(n).split('').map(el => Number(el)).sort((a, b) => b - a);
     return +arr.join('');
 }
+
+// 2 case
+
+function maxNumber(n){
+    return Number(String(n).split("").sort().reverse().join(""));
+}

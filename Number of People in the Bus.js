@@ -9,3 +9,9 @@ var number = function(busStops) {
   }
   return getIn - getOff;
 };
+
+// 2 case
+
+var number = function(busStops){
+  return busStops.reduce((acc,[a,b])=> (acc + a - b), 0)
+}
