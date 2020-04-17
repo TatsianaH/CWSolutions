@@ -1,26 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-
-```
-*2 version*
-```javascript
-const sumAverage = (arr) => {
-  let result = Math.floor(arr
-  .map(el => el
-  .reduce((a, b)=> a + b, 0) / el.length)
-  .reduce((a, b)=> a + b, 0));
-  return result;
-}
-```
-*Number of People in the Bus*
-https://www.codewars.com/kata/number-of-people-in-the-bus/train/javascript
-```javascript
-var number = function(busStops){
- return busStops.reduce((acc,[a,b])=> (acc + a - b), 0)
-}
-```
 *TV Remote*
 https://www.codewars.com/kata/tv-remote/train/javascript
 ```javascript
