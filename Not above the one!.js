@@ -9,4 +9,3 @@ function binaryCleaner(arr) {
     }
     return [arr1, arr2];
 }
-//
