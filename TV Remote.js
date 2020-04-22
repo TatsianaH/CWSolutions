@@ -15,3 +15,19 @@ var tvRemote = (function() {
             .reduce((a, b) => a + b, 0);
     }
 })();
+
+
+// 2 version
+
+const tvRemote = function(word) {
+  let keys = 'abcde123fghij456klmno789pqrst.@0uvwxyz_/';
+  let pos = [ 0, 0 ];
+  let res = 0;
+  for (let char of word) {
+    let i = keys.indexOf(char);
+    let dest  = [ i / 8 | 0, i % 8 ];
+    res += Math.abs(dest[0] - pos[0]) + Math.abs(dest[1] - pos[1]) + 1;
+    pos = dest;
+  }
+  return res;
+};
