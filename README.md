@@ -1,17 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-https://www.codewars.com/kata/56269eb78ad2e4ced1000013/train/javascript
-```javascript
-function findNextSquare(sq) {
-  if(Number.isInteger(Math.sqrt(sq))){
-    return (Math.sqrt(sq) + 1) ** 2;
-  }
-  return -1;
-}
-```
-
 *Sum Strings as Numbers*
 https://www.codewars.com/kata/sum-strings-as-numbers/train/javascript
 ```javascript
