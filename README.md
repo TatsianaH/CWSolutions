@@ -1,7 +1,7 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*Sum Strings as Numbers*
+
 https://www.codewars.com/kata/sum-strings-as-numbers/train/javascript
 ```javascript
 function sumStrings(a,b) { 
