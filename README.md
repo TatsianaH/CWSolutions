@@ -1,13 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-
-
-*Adding Big Numbers*
-
-```javascript
-
-```
 *Sort Out The Men From Boys*
 https://www.codewars.com/kata/sort-out-the-men-from-boys-1/train/javascript
 ```javascript
