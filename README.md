@@ -4,7 +4,7 @@
 
 
 *Adding Big Numbers*
-https://www.codewars.com/kata/adding-big-numbers/train/javascript
+
 ```javascript
 function add(a, b) {
   return (Number(a) >= Number.MAX_SAFE_INTEGER || Number(b)>= Number.MAX_SAFE_INTEGER) ? 
