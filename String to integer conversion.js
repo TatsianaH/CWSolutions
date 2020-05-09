@@ -4,3 +4,10 @@ function myParseInt(str) {
     if(str.trim().match(/[^0-9]/g)) return 'NaN';
     else return Number.parseInt(str, 10);
 }
+
+// 2 case
+
+function myParseInt(str) {
+    if(str.trim().match(/[^0-9]/g)) return 'NaN';
+    else return +str;
+}
