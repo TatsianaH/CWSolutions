@@ -23,3 +23,10 @@ function calculateString(st){
     }
     return Math.round(res).toString();
 }
+
+// 2 case
+// use eval method which evaluates code present as String: number - math operator - number
+
+function calculateString(s){
+    return eval(s.replace(/[^\d+*/.-]/g,'')).toFixed();
+}
