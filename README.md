@@ -1,9 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-```javascript
-```
 *Debug Sum of Digits of a Number*
 https://www.codewars.com/kata/debug-sum-of-digits-of-a-number/train/javascript
 ```javascript
