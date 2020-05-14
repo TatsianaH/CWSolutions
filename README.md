@@ -1,12 +1,10 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*Debug Sum of Digits of a Number*
-https://www.codewars.com/kata/debug-sum-of-digits-of-a-number/train/javascript
+**
+
 ```javascript
-function getSumOfDigits(int) {
-  return int.toString().split('').reduce((a, b) => a + +b, 0);
-}
+
 ```
 *Sum of a Sequence [Hard-Core Version]*
 https://www.codewars.com/kata/sum-of-a-sequence-hard-core-version/train/javascript
