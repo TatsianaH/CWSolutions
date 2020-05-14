@@ -1,11 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-
-```javascript
-
-```
 *Sum of a Sequence [Hard-Core Version]*
 https://www.codewars.com/kata/sum-of-a-sequence-hard-core-version/train/javascript
 ```javascript
