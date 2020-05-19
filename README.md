@@ -1,7 +1,7 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*Sum of a Sequence [Hard-Core Version]*
+**
 https://www.codewars.com/kata/sum-of-a-sequence-hard-core-version/train/javascript
 ```javascript
 const sequenceSum = (begin, end, step) => {
