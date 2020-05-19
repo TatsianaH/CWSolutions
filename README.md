@@ -2,7 +2,7 @@
 ## Nice to meet you here! 
 
 **
-https://www.codewars.com/kata/sum-of-a-sequence-hard-core-version/train/javascript
+
 ```javascript
 const sequenceSum = (begin, end, step) => {
   if((begin < end && step <= 0) || (begin > end && step >= 0)) return 0;
