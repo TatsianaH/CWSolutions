@@ -13,3 +13,9 @@ function solve(s,g){
     if(n % g === 0) return g > n ? [n, g] : [g, n];
     return -1;
 }
+
+// 3 case
+
+function solve(s, g) {
+    return s % g ? -1 : [g, s - g];
+}
