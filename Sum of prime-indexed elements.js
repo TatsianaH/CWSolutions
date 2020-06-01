@@ -16,3 +16,14 @@ function total(arr){
     }
     return sum;
 };
+
+
+// 2 case
+
+const total = a => a.reduce((r, e, i) => r + (isPrime(i) ? e : 0), 0);
+
+const isPrime = n => {
+    for (let i = 2, s = Math.sqrt(n); i <= s; i++)
+        if (n % i === 0) return false;
+    return n > 1;
+}
