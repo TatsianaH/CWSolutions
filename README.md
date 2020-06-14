@@ -2,7 +2,7 @@
 ## Nice to meet you here! 
 
 **
-https://www.codewars.com/kata/sum-of-a-beach/train/javascript
+
 ```javascript
 function sumOfABeach(beach) {
   let count = 0; 

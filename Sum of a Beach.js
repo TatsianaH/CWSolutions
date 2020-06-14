@@ -1,1 +1,1 @@
-//
+// https://www.codewars.com/kata/sum-of-a-beach/train/javascript
