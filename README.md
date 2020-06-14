@@ -1,7 +1,7 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*Sum of a Beach*
+**
 https://www.codewars.com/kata/sum-of-a-beach/train/javascript
 ```javascript
 function sumOfABeach(beach) {
