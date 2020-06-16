@@ -2,7 +2,7 @@
 ## Nice to meet you here! 
 
 **
-https://www.codewars.com/kata/kebabize/train/javascript
+
 ```javascript
 function kebabize(str) {
   str = str.replace(/[0-9]/g, '').split('');
