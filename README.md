@@ -2,7 +2,7 @@
 ## Nice to meet you here! 
 
 **
-https://www.codewars.com/kata/kebabize/train/javascript
+
 ```javascript
 function solve(s) {
   let alph = 'abcdefghijklmnopqrstuvwxyz';
