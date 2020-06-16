@@ -1,10 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-
-```javascript
-```
 *Consonant value*
 https://www.codewars.com/kata/kebabize/train/javascript
 ```javascript
