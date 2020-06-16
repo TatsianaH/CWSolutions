@@ -1,7 +1,7 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*Kebabize*
+**
 https://www.codewars.com/kata/kebabize/train/javascript
 ```javascript
 function kebabize(str) {
