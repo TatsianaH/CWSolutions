@@ -8,3 +8,12 @@ function nextId(ids){
     }
     return max + 1;
 }
+
+// 2 case
+
+function nextId(ids){
+    for(let i = 0; ; i++){
+        if(!ids.includes(i)) return i;
+    }
+}
+
