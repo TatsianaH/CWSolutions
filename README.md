@@ -1,8 +1,8 @@
 # Hello! 
 ## Nice to meet you here! 
 
-*If you can read this...*
-https://www.codewars.com/kata/if-you-can-read-this-dot-dot-dot/train/javascript
+**
+
 ```javascript
 function to_nato(words) {
   const obj = {
