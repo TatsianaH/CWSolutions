@@ -1,11 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-**
-
-```javascript
-
-```
 *Putting the flatMap into the JS*
 https://www.codewars.com/kata/5abb8e941ea65df9870000a9/train/javascript
 ```javascript
