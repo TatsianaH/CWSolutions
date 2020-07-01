@@ -7,3 +7,7 @@ function solve(arr){
         }
     }
 };
+
+// 2 case
+
+const solve = (arr) => arr.find(el => !arr.includes(-el));
