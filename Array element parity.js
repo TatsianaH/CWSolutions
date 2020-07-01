@@ -2,7 +2,7 @@
 
 function solve(arr){
     for(let i = 0; i < arr.length; i++){
-        if(arr.includes(arr[i]) && !arr.includes(-1 * arr[i])){
+        if(arr.includes(arr[i]) && !arr.includes(-arr[i])){
             return arr[i];
         }
     }
