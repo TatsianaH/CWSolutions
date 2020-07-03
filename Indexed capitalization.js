@@ -7,5 +7,4 @@ function capitalize(s,arr){
         else str += s[i];
     }
     return str;
-
 };
