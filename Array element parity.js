@@ -11,3 +11,11 @@ function solve(arr){
 // 2 case
 
 const solve = (arr) => arr.find(el => !arr.includes(-el));
+
+// 3 case
+
+function solve(arr){
+    for(let i = 0; i < arr.length; i++){
+        if(!arr.includes(arr[i] * (-1))) return arr[i];
+    }
+};
