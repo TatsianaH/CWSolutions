@@ -4,3 +4,11 @@ function solution(nums){
     if(!nums || nums.length === 0) return [];
     else return nums.sort((a, b) => a - b);
 }
+
+// 2 case
+
+function solution(nums){
+    return (nums || []).sort(function(a, b){
+        return a - b
+    });
+}
