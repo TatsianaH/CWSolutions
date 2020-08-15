@@ -7,3 +7,9 @@ function solve(arr){
     });
     return res;
 }
+
+// 2 case
+
+function solve(arr){
+    return arr.filter((val,i) => arr.lastIndexOf(val) == i);
+}
