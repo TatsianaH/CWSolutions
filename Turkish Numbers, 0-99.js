@@ -29,7 +29,6 @@ const getTurkishNumber = (num) => {
     } else if (num % 10 === 0){
         return dozens[num];
     } else {
-        let res = '';
         const num2 = num%10;
         const num1 = num - num2;
         return dozens[num1] + ' '+ digits[num2];
