@@ -9,3 +9,14 @@ function skiponacci(n) {
     const res = fib.slice(1).map((el, i) => i % 2 ? el = 'skip' : el).join(' ');
     return res;
 }
+
+// 2 case
+
+function skiponacci(n) {
+    let arr = [1, 1];
+    for (let i = 2; i < n; i++){
+        arr.push(arr[i - 1] + arr[i - 2]);
+    }
+    arr = arr.map((el, i) => i % 2 ? el = 'skip' : el).join(' ');
+    return n === 1 ? '1' : arr;
+}
