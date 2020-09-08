@@ -11,6 +11,7 @@ function skiponacci(n) {
 }
 
 // 2 case
+
 function skiponacci(n) {
     let arr = [1, 1];
     for (let i = 2; i < n; i++){
