@@ -2,3 +2,7 @@
 
 // Given: const websites = [];
 websites[0] = 'codewars';
+
+// 2 case
+
+websites.push('codewars')
