@@ -10,7 +10,7 @@ function getLast(arr){
     return arr[arr.length - 1];
 }
 function pushElement(arr){
-    var el=1;
+    const el = 1;
     arr.push(el);
     return arr;
 }
