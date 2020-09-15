@@ -5,5 +5,4 @@ function reverseBits (n) {
     n = n.split('').reverse().join(''); // reverse binary
     n = parseInt(n, 2); // convert to decimal
     return n;
-
 }
