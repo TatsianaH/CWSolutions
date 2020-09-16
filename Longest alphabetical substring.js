@@ -16,4 +16,5 @@ function longest(str) {
         prev = str[i];
     };
     return longestSub;
+
 }
