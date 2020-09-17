@@ -6,3 +6,7 @@ function flyBy(lamps, drone){
     const lampsOff = lampsLength - droneLength;
     return droneLength >= lampsLength ? 'o'.repeat(lampsLength) :'o'.repeat(droneLength) + 'x'.repeat(lampsOff);
 }
+
+// 2 case
+
+const flyBy = (lamps, drone) => [...lamps].fill('o', 0, drone.length).join('');
