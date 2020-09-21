@@ -13,3 +13,15 @@ function checkThreeAndTwo(array) {
     if(b === 2 && c === 3) return true;
  return false;
 }
+
+// 2 case
+
+function checkThreeAndTwo(array) {
+  let obj = {};
+  for (let l of array) {
+    if (obj[l]) obj[l] += 1;
+    else obj[l] = 1;
+  }
+  const values = Object.values(obj);
+  return values.includes(2) && values.includes(3);
+}
