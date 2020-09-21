@@ -25,3 +25,20 @@ function checkThreeAndTwo(array) {
   const values = Object.values(obj);
   return values.includes(2) && values.includes(3);
 }
+
+// 3 case
+
+function checkThreeAndTwo(array) {
+  let obj = {};
+  for(let l of array){
+    if(obj[l]) obj[l] += 1;
+    else obj[l] = 1;
+  }
+  let count = [];
+  for(let key in obj){
+    if (obj[key] === 2 || obj[key] === 3){
+      if(!count.includes(obj[key])) count.push(obj[key])
+    };
+  }
+  return count.length === 2;
+}
