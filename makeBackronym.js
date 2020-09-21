@@ -11,3 +11,14 @@ let makeBackronym = function(str){
     }
     return res.trimRight();
 };
+
+// 2 case
+
+function makeBackronym(str){
+    str = str.toUpperCase();
+    let res = '';
+    for(let l of str){
+        if(dict[l]) res += dict[l] + ' ';
+    }
+    return res.trimRight();
+};
