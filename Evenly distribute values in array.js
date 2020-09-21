@@ -6,7 +6,7 @@ const distributeEvenly = (array) => {
         map.set(s, (map.get(s) || 0) + 1);
     }
     map = [...map];
-    const array = array.map((_, i) => {
+    array = array.map((_, i) => {
         if (map[i][1] > 1) map.push([map[i][0], map[i][1]- 1]);
         return map[i][0];
     });
