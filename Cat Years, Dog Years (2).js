@@ -31,3 +31,11 @@ const ownedCatAndDog = function(catYears, dogYears) {
     }
     return [ownedCat, ownedDog];
 }
+
+// 2 case
+
+const ownedCatAndDog = function(cy, dy) {
+    let cat = cy < 15 ? 0: cy < 24? 1: 2 + Math.trunc((cy - 24) / 4);
+    let dog = dy < 15 ? 0: dy < 24? 1: 2 + Math.trunc((dy - 24) / 5);
+    return [cat, dog];
+}
