@@ -11,3 +11,15 @@ function solve(arr){
     if(arr.length % 2 === 1) res = res.slice(0, -1);
     return res;
 };
+
+// 2 case
+
+function solve(arr){
+    let minMax = [];
+    arr.sort((a,b)=>a-b);
+    for(let i = 0, j = arr.length - 1; i <= j; i++,j--){
+        if(i !== j) minMax.push(arr[j]), minMax.push(arr[i]);
+        else minMax.push(arr[i]);
+    }
+    return minMax;
+}
