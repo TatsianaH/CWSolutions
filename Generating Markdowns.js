@@ -2,6 +2,6 @@
 
 function generateMarkdowns(markdown,text,urlOrLanguage) {
     if(markdown === 'link') return '[' + text + '](' + urlOrLanguage + ')';
-    if(markdown === 'img') return '![' + text + '](' + urlOrLanguage + ')';
+    else if(markdown === 'img') return '![' + text + '](' + urlOrLanguage + ')';
     else return '```' + urlOrLanguage + '\n' + text + '\n```';
 };
