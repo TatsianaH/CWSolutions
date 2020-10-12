@@ -41,8 +41,9 @@ function isPrime(num){
     }
   return true;
 }
+```
 
-*Schrödinger's Boolean*
+**Schrödinger\'s Boolean**
 https://www.codewars.com/kata/schrodingers-boolean/train/javascript
 ```javascript
 const omnibool = {
