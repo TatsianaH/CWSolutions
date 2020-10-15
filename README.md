@@ -1,7 +1,6 @@
 # Hello! 
 ## Nice to meet you here! 
 
-
 **
 https://www.codewars.com/kata/transform-to-prime/train/javascript
 ```javascript
