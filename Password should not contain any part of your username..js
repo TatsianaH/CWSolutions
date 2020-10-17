@@ -18,3 +18,13 @@ function validate(u, p){
         return true;
     }
 }
+
+// 2 case
+
+const validate = (username, password) => {
+    const half = Math.ceil(Math.min(username.length, password.length) / 2);
+    for (let i = 0; i <= password.length - half; i++) {
+        if (username.includes(password.substr(i, half))) return false;
+    }
+    return true;
+};
