@@ -9,3 +9,15 @@ function solve(arr){
     arr.sort((a, b) => obj[b] - obj[a] || a - b);
     return arr;
 }
+
+// 2 case
+
+function solve(arr){
+    let obj = {};
+    for (let el of arr){
+        if (obj[el]) obj[el]++;
+        else obj[el] = 1;
+    }
+    arr = arr.sort((a, b)=> a-b).sort((a,b)=>obj[b] === obj[a]? a - b : obj[b]-obj[a]);
+    return arr;
+}
