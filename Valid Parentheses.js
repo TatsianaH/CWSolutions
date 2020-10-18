@@ -1,6 +1,5 @@
 // https://www.codewars.com/kata/52774a314c2333f0a7000688/solutions/javascript
 
-
 function validParentheses(parens){
   if(parens === '') return true;
   let res = false;
