@@ -13,3 +13,10 @@ function duplicateSandwich(a) {
     const ind2 = a.lastIndexOf(el1);
     return a.slice(ind1 + 1, ind2);
 }
+
+// 2 case
+
+const duplicateSandwich = (list) => {
+    let duplicated = [...list].find(a => list.indexOf(a) !== list.lastIndexOf(a))
+    return list.slice(list.indexOf(duplicated) + 1, list.lastIndexOf(duplicated))
+}
