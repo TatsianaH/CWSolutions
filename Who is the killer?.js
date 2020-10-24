@@ -9,3 +9,9 @@ function killer(obj, arr) {
         if(name === arr.length) return key;
     }
 }
+
+// 2 variant
+
+function killer(suspectInfo, dead) {
+    return Object.keys(suspectInfo).find(x => dead.every(y => suspectInfo[x].includes(y)))
+}
