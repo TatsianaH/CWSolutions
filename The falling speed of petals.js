@@ -5,3 +5,7 @@ function sakuraFall(v) {
     const dist = 80 * 5;
     return dist / v;
 }
+
+// 2 variant
+
+const sakuraFall = velocity => velocity > 0 ? 400 / velocity : 0;
