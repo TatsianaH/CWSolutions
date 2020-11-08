@@ -14,3 +14,9 @@ function solve(s){
     }
     return false;
 }
+
+// 2 variant
+
+function solve(s) {
+    return ('abcdefghijklmnopqrstuvwxyz').includes([...s].sort().join(''));
+}
