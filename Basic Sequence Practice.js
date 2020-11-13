@@ -15,6 +15,7 @@ function sumOfN(n) {
 
 // 2 variant
 
+
 function sumOfN(n) {
     let array = [];
     array[0] = 0;
