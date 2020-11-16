@@ -1,4 +1,4 @@
-// codewars.com/kata/57f7796697d62fc93d0001b8/train/javascript
+// https://www.codewars.com/kata/57f7796697d62fc93d0001b8/train/javascript
 
 function trouble(x, t){
     for(let i = 0; i < x.length; i++){
