@@ -7,3 +7,13 @@ function findDeletedNumber(arr, mixArr) {
     }
     return 0;
 }
+
+// 2 variant
+
+function findDeletedNumber(arr, mixArr) {
+    if(arr.length === mixArr.length) return 0;
+    for(var k in arr)
+        if(mixArr.indexOf(arr[k]) === -1)
+            return arr[k];
+    return 0;
+}
