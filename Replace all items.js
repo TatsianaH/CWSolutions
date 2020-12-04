@@ -17,3 +17,9 @@ function replaceAll(seq, find, replace) {
         return arr;
     }
 }
+
+// 2 variant
+
+function replaceAll(seq, find, replace) {
+    return Array.isArray(seq) ? seq.map(x => x === find ? replace : x) : seq.split(find).join(replace);
+}
