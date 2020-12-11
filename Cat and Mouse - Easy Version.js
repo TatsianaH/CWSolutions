@@ -8,3 +8,9 @@ function catMouse(x){
     }
     return 'Escaped!';
 }
+
+// 2 variant
+
+function catMouse(x) {
+    return x.length <= 5 ? 'Caught!' : 'Escaped!';
+}
