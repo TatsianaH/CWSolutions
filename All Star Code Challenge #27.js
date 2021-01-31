@@ -7,3 +7,9 @@ function factorial(x){
     }
     return f;
 }
+
+// 2 variant
+
+function factorial(x){
+    return x === 0 ? 1 : x * factorial(x - 1)
+}
