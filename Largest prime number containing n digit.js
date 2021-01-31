@@ -1,1 +1,1 @@
-//
+// https://www.codewars.com/kata/5676f07029da352ba2000065/train/javascript
