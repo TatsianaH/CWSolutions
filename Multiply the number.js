@@ -10,3 +10,9 @@ function multiply(n){
     num = num.join('') * (5 ** l);
     return n < 0 ? (-1) * num : +num;
 }
+
+// 2 variant
+
+function multiply(number) {
+    return number * Math.pow(5, Math.abs(number).toString().length);
+}
