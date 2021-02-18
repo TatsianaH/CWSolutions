@@ -7,3 +7,9 @@ function calc_ms(n) {
     }
     return cubes;
 }
+
+// 2 variant
+
+function calc_ms(n) {
+    return Math.pow(20, n);
+}
