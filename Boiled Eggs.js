@@ -15,3 +15,9 @@ function cookingTime(eggs) {
     }
     return min;
 }
+
+// 3 variant
+
+function cookingTime(eggs) {
+    return 5 * Math.ceil(eggs / 8);
+}
