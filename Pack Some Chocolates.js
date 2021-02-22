@@ -13,3 +13,17 @@ function makeChocolates(s, b, g) {
         return -1
     }
 }
+
+// 2 variant
+
+function makeChocolates(small, big, goal) {
+
+    for(let i = big; i >= 0; --i) {
+        let multiply = i * 5;
+        let remainder = goal - multiply;
+        if(remainder >= 0 && (remainder % 2 == 0) && (remainder/2) <= small) {
+            return (remainder/2);
+        }
+    }
+    return -1;
+}
