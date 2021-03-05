@@ -3,3 +3,7 @@
 function uniqueNumbers(arr) {
     return arr.filter((el, i) => arr.indexOf(el) === i);
 }
+
+// 2 variant
+
+const uniqueNumbers = numbers => [...new Set(numbers)];
