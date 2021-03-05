@@ -2,9 +2,8 @@
 
 function findMultiples(int, l) {
     let arr = [];
-    let max = Math.trunc(l / int);
-    for(let i = 1; i <= max; i++){
-        arr.push(int * i);
+    for(let i = int; i <= l; i += int){
+        arr.push(i);
     }
     return arr;
 }
