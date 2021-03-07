@@ -7,3 +7,14 @@ function addExtra(arr){
     return arr1;
 }
 
+// 2 variant
+
+function addExtra( listOfNumbers ){
+    return [...listOfNumbers, 13];
+}
+
+// 3 variant
+
+function addExtra(listOfNumbers) {
+    return listOfNumbers.concat(0)
+}
