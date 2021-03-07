@@ -9,3 +9,9 @@ function bigToSmall(arr){
     res = res.join('>');
     return res;
 }
+
+// 2 variant
+
+function bigToSmall(arr) {
+    return [].concat(...arr).sort((a, b) => b - a).join('>');
+}
