@@ -3,3 +3,9 @@
 function anyArrows(arrows){
     return arrows.some((el, range, damaged) => el['range'] && !el['damaged'] || el['damaged'] === false);
 }
+
+// 2 variant
+
+function anyArrows(arrows){
+    return arrows.some(a => !a.damaged);
+}
