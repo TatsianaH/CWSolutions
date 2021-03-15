@@ -21,3 +21,28 @@ function rounders(v) {
     }
     return +res;
 }
+
+// 2 variant
+
+function rounders(value) {
+    let i = 0;
+    while(value >= 10){
+        value = Math.round(value / 10);
+        i++;
+    }
+    return value * 10 ** i;
+}
+
+// 3 variant
+
+function rounders(v) {
+    let l = v.toString().length;
+    let arr = v.toString().split('');
+    for (let i = l - 1;i > 0;i--){
+        if (arr[i] >= 5) {
+            arr[i - 1] = (+arr[i - 1] + 1) + '';
+        }
+        arr[i] = 0;
+    }
+    return +arr.join('');
+}
