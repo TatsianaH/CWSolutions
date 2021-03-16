@@ -11,3 +11,14 @@ function countZeros(n) {
     }
     return count;
 }
+
+// 2 variant
+
+function countZeros(n) {
+    let str = '';
+    while(n > 1){
+        str += String(n).replace(/[1-9]/g, '');
+        n--;
+    }
+    return str.length;
+}
