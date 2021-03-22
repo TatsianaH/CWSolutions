@@ -8,3 +8,8 @@ function billboard(name, price = 30){
     }
     return res.reduce((a, b) => a + b, 0);
 }
+
+// 2 variant
+
+const billboard = (name, price = 30) =>
+    [...name].reduce(pre => pre + price, 0);
