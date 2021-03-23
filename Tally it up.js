@@ -22,3 +22,12 @@ const scoreToTally = function(score){
     }
     return res;
 }
+
+// 2 variant
+
+const scoreToTally = function(score){
+    let letters = 'abcde';
+    let fives = Math.trunc(score / 5);
+    let rest = score % 5;
+    return "e <br>".repeat(fives) + (rest > 0 ? letters[rest-1] : "");
+}
