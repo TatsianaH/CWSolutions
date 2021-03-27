@@ -6,3 +6,14 @@ function CalculateString(n, nums){
     }
     return nums.length;
 }
+
+// 2 variant
+
+function CalculateString(n, nums){
+    let zeroCnt = 0;
+    let oneCnt = 0;
+    for(let num of nums) {
+        num === '1' ? (oneCnt++) : (zeroCnt++);
+    }
+    return Math.abs(zeroCnt - oneCnt);
+}
