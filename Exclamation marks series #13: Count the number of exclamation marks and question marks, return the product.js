@@ -9,3 +9,11 @@ function product(s){
     }
     return ex * que;
 }
+
+// 2 variant
+
+function product(s){
+    const excs = s.split('!').length - 1
+    const ques = s.split('?').length - 1
+    return excs * ques;
+}
