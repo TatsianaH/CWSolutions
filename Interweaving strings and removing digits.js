@@ -11,3 +11,13 @@ function interweave(s1, s2) {
     }
     return res.join('').replace(/[0-9]/g, '');
 }
+
+// 2 variant
+
+function interweave(s1, s2) {
+    let res = ''
+    for (let i = 0; i <(s1).length; i++) {
+        res += s1[i] + s2[i]
+    }
+    return res.replace(/\d/g, '').replace(/undefined/, '')
+}
