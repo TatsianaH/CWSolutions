@@ -8,3 +8,14 @@ function redarr(arr) {
     }
     return obj;
 }
+
+// 2 variant
+
+function redarr(arr) {
+    let ar = [...new Set(arr.sort())];
+    let obj = {};
+    for(let i = 0; i < ar.length; i++){
+        obj[i] = ar[i];
+    }
+    return obj;
+}
