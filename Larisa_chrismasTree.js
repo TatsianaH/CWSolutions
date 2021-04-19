@@ -45,6 +45,7 @@ function christmasTreeWithRandomToys(n){
 }
 console.log(christmasTreeWithRandomToys(9));
 
+
 // christmasTree created with specific toys @#*
 function christmasTreeWithSpecificToys(n){
     let str = '';
