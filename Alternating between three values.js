@@ -6,3 +6,23 @@ function f(x, cc) {
     else return cc.a
     return x;
 }
+
+// 2 variant
+
+function f(x, cc) {
+    let vals = Object.values(cc);
+    let ind = vals.indexOf(x);
+    return vals[ind + 1] == undefined ? vals[0] : vals[ind + 1]
+}
+
+// 3 variant
+
+function f(x, cc) {
+    for(let key in cc){
+        if(cc[key] == x){
+            if(key === 'a') return cc['b'];
+            if(key === 'b') return cc['c'];
+            if(key === 'c') return cc['a']
+        }
+    }
+}
