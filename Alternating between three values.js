@@ -26,3 +26,7 @@ function f(x, cc) {
         }
     }
 }
+
+// 4 variant
+
+const f = (x,{a,b,c}) => ({[a]:b,[b]:c,[c]:a})[x] ;
