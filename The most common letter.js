@@ -14,7 +14,6 @@ function replaceCommon(str, l) {
             letter = key;
         }
     }
-    letter = new RegExp(letter, 'g');;
-    const res = str.replace(letter, l);
-    return res;
+    letter = new RegExp(letter, 'g');
+    return str.replace(letter, l);
 }
